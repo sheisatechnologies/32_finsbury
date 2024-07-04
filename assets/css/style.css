@@ -2936,7 +2936,7 @@ word-spacing: 0 !important;
 
     width: 100%;
     height: 500px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     position: relative;
@@ -3630,7 +3630,7 @@ margin: 0;
 #logo-con-top{
 
    width: 100%;
-   height: 300px;
+   height: 200px;
    display: flex;
   
    justify-content: center;
@@ -3680,3 +3680,59 @@ margin: 0;
     align-items: center;
     flex-direction: column;
 }
+
+
+
+#logo-con-top1{
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ #logo-con-top1 #logo-box1{
+ 
+     width: 25%;
+     height: 100%;
+   
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ #logo-con-top1 #logo-box2{
+ 
+     width: 25%;
+     height: 100%;
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ #logo-con-top1 #logo-box3{
+ 
+     width: 25%;
+     height: 100%;
+    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ 
+ }
+ 
+ #logo-con-top1 #logo-box4{
+ 
+     width: 25%;
+     height: 100%;
+    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
