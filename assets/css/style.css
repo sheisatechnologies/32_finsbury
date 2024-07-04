@@ -3736,3 +3736,89 @@ margin: 0;
      align-items: center;
      flex-direction: column;
  }
+
+/* 
+ ///////logo container////////// */
+
+ #main-logo-container{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+ }
+
+ #main-logo-container #main-logo-container-top{
+
+    width: 100%;
+    height: 30vh;
+    display: flex;
+  
+    
+ }
+
+ #main-logo-container-top #main-logo-container-top-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+
+ }
+
+ #main-logo-container-top #main-logo-container-top-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #main-logo-container #main-logo-container-down{
+
+    width: 100%;
+    height: 30vh;
+    display: flex;
+  
+    
+ }
+
+ #main-logo-container-down #main-logo-container-down-left{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ #main-logo-container-down #main-logo-container-down-right{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+ }
