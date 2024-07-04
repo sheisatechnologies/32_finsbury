@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Added meta tag for mobile responsiveness -->
+    <link rel="shortcut icon" href="assets/images/logo_white.svg" type="image/x-icon">
+    <title>30 Finsbury SQ</title>
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"/>
+    <!-- include font awesome 5 cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <!-- slick slider css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- jQuery 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap 5.3 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <!-- slick slider js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- parallax.js -->
+    <script type="text/javascript" src="assets/js/parallax.js"></script>
+    <script type="text/javascript" src="assets/js/parallax.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/script.js"></script>
+
+      <!-- Owl carausal css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<style>
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 60%;
+	height:100px;
+}
+
+.owl-stage-outer {
+    margin-top: 30px;
+}
+.lg-color{
+
+   color: var(--clr-green-light);
+}
+
+.design-box-sus2{
+    width: 150px;
+        height: 80px;
+        position: absolute;
+        right: 0;
+        bottom: 250px;
+       
+        background-color: var(--clr-green);;
+}
+
+.design-box-sus3 {
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    background-color: var(--clr-green);
+}
+
+.left-space{
+    position: relative;
+}
+.sus-slid-title{
+
+    color:#003B43;
+}
+
+@media (max-width: 900px) {
+ 
+
+
+    .owl-stage-outer {
+    margin-top: 100px;
+    padding: 0px 30px;
+}
+.design-box-sus {
+        width: 150px;
+        height: 80px;
+        background-color: #CDFAD5;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+
+    .sus-item2{
+
+        padding-left: 0 !important;
+        letter-spacing: 15px !important;
+    }
+    .feelGoodDesignSection .topBar {
+  
+    padding: 0px 0px;
+  
+}
+
+    .slidercontent {
+    display: flex;
+    width: 100%;
+    height: 300px;
+
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+   
+   display: none;
+}
+
+    .smart-hed {
+    
+    margin-top: 30px;
+   
+}
+
+
+
+    .owl-carousel, .owl-carousel.owl-loaded {
+    /* display: block;
+    padding: 0px 40px; */
+
+    display: block;
+        padding: 0px 10px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 70px;
+}
+
+.owl-carousel .item {
+    padding: 0px;
+}
+.icon_desc{
+
+text-transform: uppercase;
+font-size: 11px;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    font-size: 40px !important;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-size: 40px !important;
+}
+
+}
+
+
+</style>
+
+</head>
+<body class="sustain-page">
+    <div class="main-wrapper">
+       <!------------------------------------------ HEADER -->
+       <header class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <a href="index.html"><img src="assets/images/logo_pink1.png"   alt=""></a></div>
+                <div class="col-6 right">
+                    <div id="desk-menu">
+                        <a href="location.html">Location</a>
+                        <a href="building.html">Building</a>
+                        <a href="sustainability.html">Sustainability</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="download.html">Downloads</a>
+                    </div>
+                    <div class="menuToggle m_menu">
+                        <svg width="26" height="14" viewBox="0 0 26 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line class="line1" y1="0.5" x2="26" y2="0.5" stroke="#FF3A9E"/>
+                            <line class="line2" y1="13.5002" x2="26" y2="13.5002" stroke="#FF3A9E"/>
+                            <line class="line3" y1="6.99976" x2="26" y2="6.99976" stroke="#FF3A9E"/>
+                        </svg>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="menuWrapper">
+                <ul>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="building.html">Building</a></li>
+                    <li><a href="sustainability.html">Sustainability</a></li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="download.html">Downloads</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!------------------------------------------ /HEADER -->
+
+
+
+
+
+
+
+
+    <!------------------------------------------ SLIDER SECTION -->
+    <div class="innerHeroSliderWrapper">
+        <div class="heroInner">
+            <img src="assets/images/sus-slider/sus-hero.jpg">
+
+            <div class="textBlock">
+                <div class="text">
+                    <div class="top">
+                        <div class="top1">Sustainability &</div> <br>
+                    </div>
+                    <div class="bottom">
+                        <div class="bottom1">Wellness</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="designBoxes">
+                <div class="designBox1"></div>
+                <div class="designBox2"></div>
+            </div>
+
+            <div class="no-desk-box10"></div>
+
+            <!-- <div class="designBoxtop"></div> -->
+        </div>
+    </div>
+    <!------------------------------------------ /SLIDER SECTION -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------------------------------------------ INFO SECTION 1 -->
+    <div class="infoSection1 sus-item1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 left-space">
+
+                    <div class="design-box-sus3 no-phon"></div>
+                </div>
+
+                <div class="col-md-7 right">
+                    <div class="title">
+                        <div class="top top-a"><span>A</span> <span>space</span><span>that</span></div>
+                        <div class="bottom bottom-a">  <span>nurtures</span></div>
+                    </div>
+
+                    <div class="desc my-5 pe-3 desk_para">
+                        <h2 class="sub-head">EXPLORE SUSTAINABLE SPACES THAT <br class="no-phon"> CREATE A HEALTHIER WORKING ECOSYSTEM</h2>
+                        <p class="sus-desc">30 Finsbury Square is designed to be a wellbeing-focused, sustainable space where people, businesses and nature all have what they need to flourish. The newly updated interior of the building
+                         will offer a distinctly different look and feel while retaining 90% of the original structure, helping to reduce environmental 
+                         impact, minimise energy and&nbsp;materials.</p></div>
+                         <div class="designBox6"></div>
+                         <div class="design-box-sus2 no-phon"></div>
+                         
+                        
+                    </div>
+                  
+                    <!-- <div class="designBox7"></div>  -->
+                    <!-- <div class="designBox8"></div>  -->
+                </div>
+
+        </div>
+
+
+
+        
+    </div>
+    <!------------------------------------------ /INFO SECTION 1 -->
+
+
+
+
+ <!------------------------------------------ INFO SECTION 2 -->
+ <div class="infoSection2 sus-item1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 left">
+                <div class="title designto-box">
+                    <div class="top b-title-m1">
+
+                        <h3 class="sus-h1">Designed To</h3>
+                        <h3 class="sus-h2">Be Smart</h3>
+                     
+                    
+                    </div>
+                </div>
+                <h2 class="smart-hed">New ways of working demand<br class="no-phon"> smarter thinking, and the vision for<br class="no-phon"> 30 Finsbury Square is&nbsp;ambitious.</h2>
+                <div class="desc my-3 pe-3">The building is set to deliver on all its targets for sustainability, energy efficiency and biodiversity for a truly ‘smart’ building. 30 Finsbury Square will be 100% electric, and Net Zero Carbon in operation. </div>
+                <div class="design-box no-phon"></div>
+                <!-- <div class="designBox9"><img src="assets/images/designBox9.png" alt=""></div> -->
+            </div>
+
+            <div class="col-md-6">
+                <!-- <div class="imageWrapper"><img src="assets/images/image-3.jpg" alt=""></div> -->
+                <div class="designBox1"><img src="assets/images/designBox1.png" alt=""></div>
+                <div class="designBox2"><img src="assets/images/designBox2.png" alt=""></div>
+                <div class="designBox4"><img src="assets/images/designBox4.png" alt=""></div>
+            </div>
+        </div>
+        <div class="design-box-sus"></div>
+    </div>
+</div>
+<!------------------------------------------ /INFO SECTION 2 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------------------------------------------ INFO SECTION 2 -->
+    <!-- <div class="infoSection2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 left">
+                    <div class="title">
+                        <div class="top"><span>Designed</span> <span>to</span></div>
+                        <div class="top top-b"> <span>be</span> <span>smart</span></div>
+                    </div>
+                   
+                   
+                    <div class="desc my-5 pe-3">
+                        <h2 class="sub-head">
+                            
+                            New ways of working demand <br>
+                            smarter thinking, and the vision for <br>
+                            30 Finsbury Square is ambitious.
+                        </h2>
+                        <p class="sus-desc2">The building is set to deliver on all its targets for sustainability, energy efficiency and biodiversity 
+                            for a truly ‘smart’ building. 30 Finsbury Square will be 100% 
+                            electric, and Net Zero Carbon in operation. </p>
+                            </div>
+
+                            <img class="g_png" src="assets/images/3png.png">
+                    <div class="designBoxinfo22"></div>
+                    <div class="designBoxinfo2"></div>
+                    <div class="designBoxinfo21"></div>
+                </div>
+                
+                <div class="col-md-5">
+                   
+                </div>
+            </div>
+            
+        </div>
+        
+       
+
+        
+        <div class="designBoxes">
+            <div class="designBox1"></div>
+            <div class="designBox2"></div>
+        </div>
+    </div> -->
+    <!------------------------------------------ /INFO SECTION 2 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+    <div class="slidercontent">
+       <div id="stop">
+
+        <span class="bslide-title"><span class="sus-tar">target</span> accreditations </span>
+        
+        
+       </div>
+
+       <div class="owl-carousel owl-theme">
+
+        <div class="item"><img src="assets/images/sus-slider/icon/Group (1).svg"><br><p class="icon_desc isiz"></p></div>
+        <div class="item"><img src="assets/images/sus-slider/icon/Group 142.svg"><br><p class="icon_desc isiz sus-slid-title">targeting platinum</p></div>
+        <div class="item"><img src="assets/images/sus-slider/icon/Group.svg"><br><p class="icon_desc isiz"></p></div>
+        <div class="item"><img src="assets/images/sus-slider/icon/Layer_1 (5).svg"><br><p class="icon_desc isiz"></p></div>
+        <div class="item"><img src="assets/images/sus-slider/icon/Layer_1 (6).svg"><br><p class="icon_desc isiz sus-slid-title">targeting well gold</p></div>
+         <div class="item"><img src="assets/images/sus-slider/icon/Layer_1 (7).svg"><br><p class="icon_desc isiz"></p></div>
+         <div class="item"><img src="assets/images/sus-slider/icon/Layer_1 (8).svg"><br><p class="icon_desc isiz"></p></div>
+         <div class="item"><img class="text-ibig" src="assets/images/sus-slider/icon/text-icon.svg"><br><p class="icon_desc isiz"></p></div>
+       
+        </div>
+        
+        <div class="design-box1 no-phon"></div>
+
+
+    </div>    
+
+
+
+
+
+
+   
+
+
+
+    
+
+
+    <!------------------------------------------ FEEL GOOD DESIGN SLIDER -->
+    <!-- <div class="feelGoodDesignSection felllogo">
+        <div class="container scontent">
+            <div class="topBar toplogo">
+                <div class="bigTitle">
+                    <div class="fel-dis susdis">
+                        <span class="ls4">target </span>
+                        <span> accreditations</span>
+                    </div>
+                    
+                   
+                   
+                      </div>
+                <div class="navigation scon1">
+                   
+                    <div class="nextButton2"><img src="assets/icon/arrow/bul/right.svg"></div>
+                </div>
+            </div>
+            <div class="designBoxfeelgood"></div>
+
+            <div class="feelGoodSliderWrapper2 scon2">
+                <div class="item">
+                   <img src="assets/icon/l1.png">
+                </div>
+                <div class="item">
+                    <img src="assets/icon/l2.png">
+                 </div>
+                 <div class="item">
+                    <img src="assets/icon/l3.png">
+                 </div>
+                 <div class="item">
+                    <img src="assets/icon/l4.png">
+                 </div>
+                 <div class="item">
+                    <img src="assets/icon/l5.png">
+                 </div>
+                 <div class="item">
+                    <img src="assets/icon/l6.png">
+                 </div>
+                 
+                
+            </div>
+
+            <div class="navigation scon3">
+                <div class="prevButton2"><img src="assets/icon/arrow/bul/left.svg"></div>
+               
+            </div>
+            <div class="designBoxfeel"></div>
+        </div>
+        
+    </div> -->
+    <!------------------------------------------ /FEEL GOOD DESIGN SLIDER -->
+
+
+
+
+
+
+
+    <!------------------------------------------ FEEL GOOD DESIGN SLIDER -->
+    <div class="feelGoodDesignSection">
+        <div class="container">
+            <div class="topBar">
+                <div class="bigTitle"><span>Feel good design</span></div>
+               
+            </div>
+            <div class="designBoxfeelgood"></div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img src="assets/images/sus-slider/Group 112.svg"><br><p class="icon_desc lg-color">Open-air<br> rooftop & <br>winter garden</p></div>
+                <div class="item"><img src="assets/images/sus-slider/Group 113 (1).svg"><br ><p class="icon_desc lg-color">Outdoor <br>lounge,<br> meeting & <br> workspaces</p></div>
+                <div class="item"><img src="assets/images/sus-slider/Group 114.svg"><br><p class="icon_desc lg-color">Biodiverse landscaping <br> with trees & <br> green ledges</p></div>
+                <div class="item"><img src="assets/images/sus-slider/Group 115.svg"><br><p class="icon_desc lg-color">Lift extension <br> with<br> Photovoltaic<br> panels</p></div>
+                <div class="item"><img src="assets/images/sus-slider/Group 116.svg"><br><p class="icon_desc lg-color">Employee <br> wellness hub</p></div>
+                <div class="item"><img src="assets/images/sus-slider/Group 143.svg"><br><p class="icon_desc lg-color">View to the <br>east & south-<br>east, taking in<br> all landmarks</p></div>
+                <div class="item"><img src="assets/images/sus-slider/Group 144.svg"><br><p class="icon_desc lg-color">Beehive & <br>tenant<br> gardening <br>space</p></div>
+                <div class="item"><img src="assets/images/sus-slider/Group 145.svg"><br><p class="icon_desc lg-color">A sustainable,<br> SMART & healthy <br>workplace</p></div>
+                <div class="item"><img src="assets/images/sus-slider/Group 146.svg"><br><p class="icon_desc lg-color">Heightened <br>ceilings create a<br> sense of <br> light & space</p></div>
+                <div class="item"><img src="assets/images/sus-slider/Group 147.svg"><br><p class="icon_desc lg-color">Enhanced <br>energy,<br> performance</p></div>
+              
+            </div>
+           
+        </div>
+        
+    </div>
+    <!------------------------------------------ /FEEL GOOD DESIGN SLIDER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------------------------------------------ INFO SECTION 1 -->
+    <div class="infoSection1 sus-last" style="background-image: url(assets/images/sus-slider/image\ 14\ \(1\).jpg); background-size: 40% auto;">
+        <div class="container">
+           
+            <div class="row">
+                <div class="col-md-5">
+                    
+                </div>
+
+                <div class="col-md-7 right">
+                    <div class="title">
+                        <div class="top top1 sus-item2"><span class="low-carb-title"><span class="low-carb">LOW CARBON</span> <span class="foot-print">FOOTPRINT</span></div>
+                        
+                    </div>
+
+                    <div class="desc1  pe-3">
+                        <div class="desc_col"> <p>RETAINING OVER</p>
+                            <div class="number">90%</div>
+                            <p class="desk_p">OF THE ORIGINAL
+                                STRUCTURE</p>
+                            </div>
+                            <div class="desc_col"> <p>TARGETTED SAVING</p>
+                                <div class="number">52%</div>
+                                <p class="desk_p">of embodied carbon compared to a new build with an estimated saving of 5,970,872 KG CO<sup>2</sup>e</p>
+                                </div>
+
+                        </div>
+                </div>
+            </div>
+
+           
+        </div>
+
+      
+
+        
+    </div>
+    <!------------------------------------------ /INFO SECTION 1 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    <div class="colla-box" style="background-color: var(--clr-green);">
+        
+    </div>
+    <!------------------------------------------ REQUEST INFO -->
+    <div class="requestInfo">
+        <div class="container">
+
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-md-12 text-center text-md-start mb-4 mb-md-0 left open-text regis_block"><span>Enquire now <span class="reg_1">for more</span> <span class="reg_2" >information</span></span></div>
+                
+            </div>
+
+            <div class="row align-items-center">
+                
+                <div class="col-lg-12 col-md-12 right text-center pt-3 pb-5 req_info_buttom">
+                    <a href="#" class="button red">Contact us</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!------------------------------------------ /REQUEST INFO -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!------------------------------------------ FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/images/logo_white.svg" alt="" class="logo">
+                    <div class="address my-3"> London EC2A 1RR </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="right mx-3">
+                        <div class="imageWrapper"><img src="assets/images/ftr_logo_3.png" alt=""></div>
+                        <div class="imageWrapper"><img src="assets/images/ftr_logo_1.png" alt=""></div>
+                        <div class="imageWrapper"><img src="assets/images/ftr_logo_2.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="copyright">© MEAG 2023 | Designed by me&dave | Computer Generated Images by Lorem Ipsum</div>
+        -->
+        </div>
+    </footer>
+    <!------------------------------------------ /FOOTER -->
+</div>
+
+<script>
+    
+const nxicon='<img src="images/pre.svg">';
+const pricon='<img src="images/next.svg">';
+$('.owl-carousel').owlCarousel({
+margin:10,
+navText:[nxicon,pricon],
+dots:false,
+nav:true,
+responsive:{
+ 0:{
+     items:3
+ },
+ 600:{
+     items:3
+ },
+ 1000:{
+     items:5
+ }
+}
+})
+</script>
+</body>
+</html>
