@@ -1230,8 +1230,8 @@ body {
         flex-wrap: nowrap;
         color: var(--clr-pink);
         text-transform: uppercase;
-        font-size: 60px;
-        letter-spacing: 30px;
+        font-size: 50px;
+        letter-spacing: 36px;
         word-spacing: 100px;
         font-weight: var(--font-medium);
         column-gap: 150px;
@@ -1359,12 +1359,14 @@ body {
     justify-content: space-between;
     line-height: 50px;
     column-gap: 10px;
+    font-size: 50px;
 }
 
 
   .building-page .infoSection1 .right .title .bottom-a {
-    letter-spacing: 77px;
-    margin-left: 0px;
+    letter-spacing: 66px;
+    margin-left: 50px;
+    font-size: 50px;
     
 }
     
@@ -3451,7 +3453,7 @@ height: 100px;
 .regis_block{
 
     padding-left: 30px !important;
-    word-spacing: 130px !important;
+    word-spacing: 75px !important;
 }
 
 .designto-box{
