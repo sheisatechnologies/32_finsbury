@@ -1,4 +1,27 @@
-@media (max-width: 1400px) {
+@media (min-width: 1500px) {
+
+    .no-desk-box2 {
+        width: 250px;
+        height: 84px;
+        position: absolute;
+        bottom: 385px;
+        background-color: var(--clr-blue);
+        left: 0;
+
+    }
+}
+
+@media (max-width: 1500px) {
+
+    .no-desk-box2 {
+        width: 250px;
+        height: 84px;
+        position: absolute;
+        bottom: 385px;
+        background-color: var(--clr-blue);
+        left: 0;
+
+    }
 
     .requestInfo .left {
         font-size: 35px;
@@ -275,6 +298,11 @@
 
 @media (max-width: 1200px) {
 
+    .building-page .openToChangeSection {
+       
+        height: 140vh;
+    }
+
 
     .regis_block {
 
@@ -397,7 +425,7 @@
         margin-left: 10px;
     }
 
-    .no-desk-box2 {
+    /* .no-desk-box2 {
         width: 250px;
         height: 84px;
         position: absolute;
@@ -405,7 +433,7 @@
         background-color: var(--clr-blue);
         left: 0;
 
-    }
+    } */
 
 
     .sus-item1 {
@@ -425,6 +453,7 @@
     .building-page .infoSection1 .right .desc {
         color: var(--clr-blue);
         padding-left: 0px !important;
+        padding-top: 0px;
     }
 
     .b-title-m1 span {
@@ -1158,7 +1187,7 @@
 
     .location-page .innerHeroSliderWrapper .heroInner .textBlock .text .top {
         padding: 0;
-        padding-right: 128px;
+        padding-right: 110px;
     }
 
     .location-page .innerHeroSliderWrapper .heroInner .textBlock .design {
@@ -1267,7 +1296,8 @@
 
     .building-page .openToChangeSection .items .item {
         display: grid;
-        margin: 64px 0;
+        margin: 24px 0;
+        line-height: 10px;
     }
 
     .building-page .openToChangeSection .items .item .number {
@@ -1335,7 +1365,8 @@
     }
 
     .design-box1-buil {
-        top: 517px;
+        width: 184px;
+        top: 477px;
         left: 0;
     }
 
@@ -1580,7 +1611,7 @@
 
 
     .feelGoodDesignSection .bigTitle {
-        font-size: 36px;
+        font-size: 34px;
         margin-bottom: 20px;
         text-align: center;
         width: 100%;
@@ -1590,12 +1621,23 @@
         align-items: center;
         letter-spacing: 8px;
         word-spacing: 21px;
-        padding-left: 10px;
+        /* margin-left: -25px; */
     }
 
     .feelGoodDesignSection .bigTitle .title-2 {
-        letter-spacing: 30px;
+        letter-spacing: 32px;
+        font-size: 32px;
 
+    }
+
+    .title-5{
+        word-spacing: 30px;
+        column-gap: 20px;
+    }
+
+    .feel-sus{
+
+        word-spacing: 60px;
     }
 
 
@@ -1844,7 +1886,7 @@
     .sustain-page .infoSection1 .right .title .bottom-a {
         letter-spacing: 20px;
         padding-left: 0px;
-        line-height: 50px;
+        line-height: 70px;
         font-size: 36px;
     }
 }
@@ -1852,6 +1894,14 @@
 
 
 @media (max-width: 991px) {
+
+    
+        .infoSection2 img {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+        }
+    
 
 
 
@@ -2040,12 +2090,13 @@
     .sustain-page .sus-last .low-carb-title .low-carb {
 
 
-        word-spacing: 90px !important;
+        word-spacing: 70px !important;
     }
 
     .sustain-page .sus-last .low-carb-title .foot-print {
 
-        letter-spacing: 20px !important;
+        letter-spacing: 18px !important;
+        line-height: 60px;
 
     }
 
@@ -2191,8 +2242,16 @@
 
     .mapbigTitle {
 
-        font-size: 50px;
+        font-size: 36px;
+        letter-spacing: 20px;
+        padding-left: 10px;
 
+    }
+
+    .text-title{
+        letter-spacing: 0px;
+        word-spacing: 137px;
+        font-size: 36px;
     }
 
 
@@ -2202,7 +2261,7 @@
     }
 
     #mini-map-left {
-        width: 100%;
+        display: none;
 
     }
 
@@ -2219,7 +2278,7 @@
         color: var(--clr-pink);
         text-transform: uppercase;
         font-size: 30px;
-        letter-spacing: 19px;
+        letter-spacing: 18px;
         word-spacing: 100px;
         font-weight: var(--font-medium);
         column-gap: 150px;
