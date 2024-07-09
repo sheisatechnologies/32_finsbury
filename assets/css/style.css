@@ -1174,7 +1174,7 @@ body {
 /**************************************** INFO SECTION 1 */
     .infoSection1 {
         background-color: var(--clr-blue);
-        background-image: url("../images/building/image\ 17.jpg");
+        background-image: url("../images/building/building_man.jpg");
         background-repeat: no-repeat;
         background-position: left top;
         background-size: 50% cover;
