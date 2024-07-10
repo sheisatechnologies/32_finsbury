@@ -1468,7 +1468,7 @@
     }
 
     .sustain-page .innerHeroSliderWrapper .heroInner .textBlock .text .bottom .bottom1 {
-        font-size: 30px;
+        font-size: 36px;
         letter-spacing: 2px;
         padding: 0 10px;
     }
@@ -1483,7 +1483,7 @@
 
     .sustain-page .innerHeroSliderWrapper .heroInner .textBlock .text .bottom .bottom1 {
         top: 0px;
-        left: -190px;
+        left: -120px;
         padding: 4px 10px;
 
     }
@@ -1899,6 +1899,11 @@
 
 
 
+    .sustain-page .innerHeroSliderWrapper .heroInner .textBlock .text .top {
+        width: 100%;
+        background-color: var(--clr-green);
+    }
+
     .img-home-box{
 
 
@@ -2253,7 +2258,7 @@
 
     .ls4 {
 
-        letter-spacing: 80px;
+        letter-spacing: 40px;
         font-size: 36px;
         margin-left: -50px;
     }
