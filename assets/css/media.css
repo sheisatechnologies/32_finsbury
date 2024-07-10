@@ -1599,6 +1599,7 @@
         background-size: 100%;
         background-position: bottom left;
         background-attachment: unset;
+        background-repeat: no-repeat;
     }
 
     .sustain-page .infoSection1 .right {
