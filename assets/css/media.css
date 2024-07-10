@@ -9,6 +9,68 @@
         left: 0;
 
     }
+
+    .text-2 {
+      
+        margin-left: 50px;
+    }
+
+    .box1-hide-phon {
+        width: 334px;
+        height: 100px;
+        position: absolute;
+        bottom: 230px;
+        background-color: #521616;
+        left: 0;
+    }
+
+    .regis_block {
+        padding-left: 30px !important;
+        word-spacing: 60px !important;
+    }
+
+    .no-desk-box2 {
+        width: 250px;
+        height: 84px;
+        position: absolute;
+        bottom: 385px;
+        background-color: var(--clr-blue);
+        left: 0;
+
+    }
+
+    .requestInfo .left {
+        font-size: 50px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: var(--font-medium);
+        color: var(--clr-pink);
+        word-spacing: 10px;
+
+    }
+
+    .designto-box {
+        margin-left: -20px;
+    }
+
+
+    .infoSection1 .right .title .top,
+    .infoSection1 .right .title .bottom,
+    .infoSection2 .title .top,
+    .infoSection2 .title .bottom {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .infoSection1 .right .title .bottom,
+    .infoSection2 .title .bottom {
+        letter-spacing: 80px;
+    }
+
+    .d-text {
+        letter-spacing: 100px !important;
+    }
+
 }
 
 @media (max-width: 1500px) {
