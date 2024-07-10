@@ -13,6 +13,11 @@
 
 @media (max-width: 1500px) {
 
+    .regis_block {
+        padding-left: 30px !important;
+        word-spacing: 75px !important;
+    }
+
     .no-desk-box2 {
         width: 250px;
         height: 84px;
