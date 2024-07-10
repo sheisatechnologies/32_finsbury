@@ -15,7 +15,7 @@
 
     .regis_block {
         padding-left: 30px !important;
-        word-spacing: 75px !important;
+        word-spacing: 60px !important;
     }
 
     .no-desk-box2 {
@@ -86,7 +86,10 @@
 
 @media (max-width: 1300px) {
 
-
+    .regis_block {
+        padding-left: 30px !important;
+        word-spacing: 40px !important;
+    }
 
     .infoSection2 .left .title {
         width: 80%;
