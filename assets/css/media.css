@@ -1897,6 +1897,33 @@
 
 @media (max-width: 991px) {
 
+    div.scroll-container {
+       
+        overflow: auto;
+       
+        white-space: nowrap;
+       
+      }
+      
+      div.scroll-container img {
+        overflow-x: hidden;
+        
+      }
+
+
+   .scrool-img{
+
+    width: 100%;
+    height: 100%;
+   }
+
+   .scrool-img img{
+
+    width: 700px !important;
+    height: 100% !important;
+   }
+
+
 
 
     .sustain-page .innerHeroSliderWrapper .heroInner .textBlock .text .top {
