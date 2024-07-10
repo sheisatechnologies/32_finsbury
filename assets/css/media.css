@@ -1403,6 +1403,7 @@
         background-position: bottom left !important;
         background-size: 100% auto !important;
         background-attachment: unset;
+        background-repeat: no-repeat;
     }
 
     .building-page .infoSection1 .right .title .bottom {
