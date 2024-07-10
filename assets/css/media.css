@@ -1918,6 +1918,12 @@
 
 @media (max-width: 576px) {
 
+    .home-page .infoSection1 img {
+        width: 104%;
+        margin-left: -2px;
+        background-size: auto;
+    }
+
     .home-page .infoSection1 {
         padding-bottom: 400px;
         background-size: 100% 400px;
