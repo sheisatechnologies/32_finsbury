@@ -1174,10 +1174,10 @@ body {
 /**************************************** INFO SECTION 1 */
     .infoSection1 {
         background-color: var(--clr-blue);
-        background-image: url("../images/building/building_man.jpg");
-        background-repeat: no-repeat;
-        background-position: left top;
-        background-size: 50% cover;
+        /* background-image: url("../images/building/building_man.jpg"); */
+        /* background-repeat: no-repeat;
+        background-position: left top; */
+        /* background-size: 50% cover; */
         overflow: hidden;
         position: relative;
        height: 550px;
@@ -3881,4 +3881,11 @@ margin: 0;
    
     justify-content: space-around;
     align-items: center;
+ }
+
+ .home-page .infoSection1 img{
+
+    width: 100%;
+   margin-left: -12px;
+    background-size: auto;
  }
