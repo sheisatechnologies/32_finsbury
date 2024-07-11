@@ -1474,6 +1474,8 @@ body {
     .sustain-page .infoSection1 {
         background-image: url("../images/sus-slider/image\ 10\ \(1\).jpg");
         background-color: var(--clr-green-light);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .sustain-page .infoSection1 .right {
         background: var(--clr-green-light);
@@ -2244,6 +2246,7 @@ body {
     letter-spacing: 2px;
     display: flex;
     flex-direction: row;
+    padding-top: 20px;
 }
 .feelGoodDesignSection .topBar .navigation {
     display: flex;
@@ -3193,7 +3196,7 @@ bottom: 0;
     background-color: var(--clr-red);;
     position: absolute;
     bottom: 0;
-    padding: 30px 60px;
+    padding: 20px 60px;
 }
 
 .b-para1{
@@ -3601,6 +3604,7 @@ margin: 0;
 .middleSliderWrapper .para-img {
     
     width: 100%;
+    padding: 0;
     
 }
 
