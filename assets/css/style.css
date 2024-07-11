@@ -3807,7 +3807,7 @@ margin: 0;
  #main-logo-container{
 
     width: 100%;
-    height: 100vh;
+    height: 500px;
     display: flex;
     flex-direction: column;
    
@@ -3816,7 +3816,7 @@ margin: 0;
  #main-logo-container #main-logo-container-top{
 
     width: 100%;
-    height: 30vh;
+    height: 100%;
     display: flex;
   
     
@@ -3861,7 +3861,7 @@ margin: 0;
  #main-logo-container #main-logo-container-down{
 
     width: 100%;
-    height: 30vh;
+    height: 100%;
     display: flex;
   
     
