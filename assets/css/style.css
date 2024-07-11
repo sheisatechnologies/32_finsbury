@@ -1181,7 +1181,7 @@ body {
         overflow: hidden;
         position: relative;
        height: 550px;
-        z-index: -1;
+        /* z-index: -1; */
        
     }
     .infoSection1 .designImage {
