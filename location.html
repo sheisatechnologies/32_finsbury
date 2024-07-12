@@ -33,11 +33,15 @@
     <script src="assets/js/script.js"></script>
 
     <style>
-        .textBlock .top .top2{
 
-            letter-spacing: 20px;
+        .pinch-zoom-parent {
+          height: 100%;
+          width: 100%;
         }
-    </style>
+        
+            </style>
+
+
 </head>
 <body class="location-page">
 
@@ -348,6 +352,12 @@
 
 
    
+<!-- 
+<div class="page pinch-zoom-parent">
+    <div class="pinch-zoom">
+        <img src="assets/images/map (1).gif" />
+    </div>
+</div> -->
 
 
 
@@ -356,29 +366,39 @@
 
 
 
-   <!------------------------------------------ REQUEST INFO -->
-   <div class="requestInfo map-con">
+<!-- <div class="requestInfo map-con">
     <div class="container-fluid iconbox5">
         <div class="row align-items-center">
-            <div class="col-lg-12 col-md-12 text-center text-md-start mb-4 mb-md-0 left no-phon ">
+            <div class="col-lg-12 col-md-12 text-center text-md-start mb-4 mb-md-0 left ">
 
 
-                <img class="nophon" src="assets/images/map (1).gif">
+                <img  src="assets/images/map (1).gif">
                
             </div>
 
-            <div class="col-lg-12 col-md-12 text-center text-md-start mb-4 mb-md-0 left scrool-img  no-desk scroll-container">
-
-
-               
-                <img class="no-desk no-desk-map" src="assets/images/map (1).gif">
-            </div>
+            
           
         </div>
     </div>
-</div>
-<!------------------------------------------ /REQUEST INFO -->
+</div> -->
 
+
+
+<div class="page pinch-zoom-parent">
+    <div class="pinch-zoom">
+        <img src="assets/images/map (1).gif" />
+    </div>
+</div>
+
+
+<!-- <div id="scrool-map">
+    <div class="page pinch-zoom-parent">
+        <div class="pinch-zoom">
+            <img src="assets/images/map (1).gif" />
+        </div>
+    </div>
+
+</div> -->
 
 
 
@@ -432,5 +452,10 @@
   </footer>
   <!------------------------------------------ /FOOTER -->
   </div>  
+  <script>
+    var el = document.querySelector(".pinch-zoom");
+new PinchZoom.default(el, {});
+
+</script>
 </body>
 </html>

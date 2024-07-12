@@ -1918,6 +1918,13 @@
 
 @media (max-width: 576px) {
 
+
+    /* .location-page #scrool-map img{
+
+        width: 600px;
+        height: 600px;
+     } */
+
     .home-page .infoSection1 img {
         width: 104%;
         margin-left: -2px;
