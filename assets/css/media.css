@@ -1919,6 +1919,14 @@
 @media (max-width: 576px) {
 
 
+    .requestInfo .iconbox5 img {
+        width: 360px;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+    }
+
+
     /* .location-page #scrool-map img{
 
         width: 600px;
