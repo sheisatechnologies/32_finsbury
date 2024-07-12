@@ -1918,6 +1918,11 @@
 
 @media (max-width: 576px) {
 
+    .map-con{
+
+        padding-top: 0 !important;
+    }
+
 
     .requestInfo .iconbox5 img {
         width: 360px;
