@@ -1633,7 +1633,7 @@ body {
 .sustain-page .infoSection1 {
     background-image: url("../images/sus-slider/image\ 10\ \(1\).jpg");
     background-color: var(--clr-green-light);
-    background-size: cover;
+    background-size: 50% auto;
     background-repeat: no-repeat;
 }
 
@@ -1650,6 +1650,7 @@ body {
     align-items: flex-start;
     column-gap: 130px;
     margin-top: 60px;
+    margin-left: -65px;
 }
 
 .sustain-page .infoSection1 .right .desc1 .desc_col {
@@ -1672,6 +1673,7 @@ body {
 
 .sustain-page .infoSection1 .right .desc1 .desc_col .desk_p {
     padding: 0px;
+    width: 298px;
 
 }
 
@@ -2645,6 +2647,7 @@ body {
     text-transform: uppercase;
     color: var(--clr-pink);
     margin-bottom: 50px;
+    letter-spacing: 2px;
 }
 
 .floorplans-page .floorplansSection .itemList .item {
@@ -3280,6 +3283,10 @@ td {
     margin-left: -5px;
 }
 
+.desk_p_first{
+    width: 229px;
+}
+
 .susdis {
     display: flex;
     justify-content: space-between;
@@ -3358,6 +3365,7 @@ td {
     color: #FF3A9E;
     margin-top: 50px;
     font-weight: 500;
+    letter-spacing: 2px;
 }
 
 .mo1 {
@@ -3846,7 +3854,7 @@ td {
 
 .sustain-page .sus-last .low-carb-title {
 
-    letter-spacing: 4px !important;
+    letter-spacing: 2px !important;
     word-spacing: 20px !important;
 }
 

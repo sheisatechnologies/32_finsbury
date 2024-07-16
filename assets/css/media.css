@@ -782,7 +782,8 @@
 
     .openbg .icon-box {
 
-        padding: 30px 0px;
+        padding: 30px 10px;
+        margin-left: 0px;
     }
 
     .footer {
@@ -997,6 +998,7 @@
         flex-direction: column;
         flex-direction: column;
         padding-top: 50px;
+        margin-left: -10px;
     }
 
     .feelGoodDesignSection {
@@ -1065,7 +1067,7 @@
         height: 84px;
         position: absolute;
         right: 0;
-        bottom: -19px;
+        bottom: -10px;
         background-color: var(--clr-green);
     }
 
@@ -1622,6 +1624,7 @@
         align-items: stretch;
         line-height: 29px;
         font-size: 36px;
+        margin-left: 0px;
 
 
 
@@ -1711,8 +1714,9 @@
     }
 
     .feelGoodDesignSection .bigTitle .title-2 {
-        letter-spacing: 32px;
+        letter-spacing: 40px;
         font-size: 32px;
+        margin-left: -40px;
 
     }
 
@@ -1723,7 +1727,7 @@
 
     .feel-sus{
 
-        word-spacing: 60px;
+        word-spacing: 80px;
     }
 
 
@@ -1899,6 +1903,40 @@
     .singleImage .designBox6 {
         display: none;
     }
+
+    .enquire_final {
+        word-spacing: 80px !important;
+        margin-left: -40px;
+    }
+
+    .title-colla {
+        margin-left: -3px;
+    }
+
+    .feel_dash{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -2073,6 +2111,7 @@
         display: flex;
 
         flex-direction: column;
+        row-gap: 30px;
 
     }
 
@@ -2083,6 +2122,7 @@
         display: flex;
 
         flex-direction: column;
+        row-gap: 30px;
 
     }
 
@@ -2233,6 +2273,7 @@
         padding-top: 20px;
         letter-spacing: 0px;
         word-spacing: 80px;
+        margin-left: 0px;
     }
 
     .requestInfo .left .title-3 {
@@ -2246,6 +2287,7 @@
 
         letter-spacing: 4px !important;
         word-spacing: 20px !important;
+        margin-left: -12px;
     }
 
     .sustain-page .sus-last .low-carb-title .low-carb {
@@ -2264,12 +2306,14 @@
 
     .requestInfo .reg_1 {
 
-        word-spacing: 155px;
+        word-spacing: 150px;
+        margin-left: -35px;
     }
 
     .requestInfo .reg_2 {
 
         letter-spacing: 9px;
+        margin-left: -25px;
     }
 
     .openToChangeSection .designBoxnum {
@@ -2290,8 +2334,9 @@
 
     .sub-head {
 
-        padding-right: 30px;
+        padding-right: 10px;
         font-weight: 600;
+        margin-left: 1px;
     }
 
     .sus-last {
@@ -2410,6 +2455,7 @@
         font-size: 36px;
         letter-spacing: 20px;
         padding-left: 10px;
+        padding-top: 20px;
 
     }
 
@@ -2484,6 +2530,10 @@
 
     .box-hide-phon, .box1-hide-phon, .box2-hide-phon {
         display: none;
+    }
+
+    #main-logo-container {
+        row-gap: 50px;
     }
 
 }
