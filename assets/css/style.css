@@ -54,13 +54,13 @@ body {
     transition: 0.2s;
 }
 .button.red {
-    border-color: var(--clr-red) !important;
+    border-color: var(--clr-red);
     color: var(--clr-red);
     letter-spacing: 1.4px;
 }
 .button.red:hover {
     background: var(--clr-red);
-    color: var(--clr-pink-light);
+    color: var(--clr-white);
 }
 .button.blue {
     border-color: var(--clr-blue);
@@ -70,7 +70,7 @@ body {
 }
 .button.blue:hover {
     background: var(--clr-blue);
-    color: var(--clr-blue-light)
+    color: var(--clr-blue-light);
 }
 .button.blue-light {
     border-color: var(--clr-blue-light);
@@ -78,13 +78,9 @@ body {
     letter-spacing: 1.4px;
     margin-left: 10px;
 }
-
-
-
-
 .button.blue-light:hover {
     background: var(--clr-blue-light);
-    color: var(--clr-blue);
+    color: var(--clr-black);
 }
 .button.green {
     border-color: var(--clr-green);
@@ -108,7 +104,7 @@ body {
 .button{
     border-color: var(--clr-pink-light);
     color: var(--clr-pink-light);
-    letter-spacing: 1.4px;
+    letter-spacing: 4%;
 }
 
 .button:hover{
@@ -1210,6 +1206,12 @@ body {
         padding: 50px;
         padding-bottom: 300px;
     }
+
+    .title-colla{
+             margin-left: -32px;
+    }
+
+
     .infoSection1 .right .title .top {
         display: flex;
         align-items: center;
@@ -1316,6 +1318,8 @@ body {
         letter-spacing: 12px;
 
     }
+
+   
 
     .infoSection1 .right .title .bottom {
         color: var(--clr-pink);
@@ -2263,6 +2267,10 @@ body {
     flex-direction: row;
     padding-top: 20px;
 }
+
+.title-7{
+    margin-left: 15px;
+}
 .feelGoodDesignSection .topBar .navigation {
     display: flex;
     align-items: center;
@@ -2476,7 +2484,7 @@ body {
         font-weight: var(--font-medium);
         color: var(--clr-pink);
         word-spacing: 10px;
-        margin-left: 35px;
+        margin-left: 22px;
        
     }
 
@@ -2695,7 +2703,7 @@ body {
 }
 
 .requestInfo .iconbox5 img{
-width: 100%;
+width: 97%;
 height: 100%;
 background-position: center;
 background-size: cover;
@@ -2864,10 +2872,13 @@ background-size: cover;
     column-gap: 6vw;
 }
 .desk-loc{
-    width: 600px;
+    width: 491px;
+    height: 92px;
     padding-bottom: 30px;
     font-size: 15px;
     line-height: 23px;
+    color: #521616;
+    font-weight: 400;
 }
 
 .feelGoodSliderWrapper .item img{
@@ -3183,7 +3194,7 @@ bottom: 0;
 }
 
 .home-page .infoSection1 .right .desc {
-    color: var(--clr-blue-light);
+    color: white;
     font-size: 15px;
     padding-right: 300px;
     padding-left: 5px;
@@ -3234,19 +3245,10 @@ bottom: 0;
   
 }
 
-.b-para .button:hover{
-    color: var(--clr-red);
-    
-  
-}
-
-
-
 .b-para1 p{
     color: #FDE0E6;
     font-weight: 600;
     line-height: 25px;
-    letter-spacing: 0.7px;
 }
 
 .infoSection3 .home-well-box{
@@ -3349,7 +3351,11 @@ width: 500px;
     text-transform: uppercase;
     margin-top: 10px;
     color:#0F2D84;
+    font-weight: 600;
+    margin-left: 30px;
+    line-height: 25px;
 }
+
 
 .owl-carousel, .owl-carousel.owl-loaded {
     display: block;
