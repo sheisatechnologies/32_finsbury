@@ -3178,7 +3178,7 @@ bottom: 0;
 }
 
 .home-page .infoSection1 .right .desc {
-    color: white;
+    color: var(--clr-blue-light);
     font-size: 15px;
     padding-right: 300px;
     padding-left: 5px;
