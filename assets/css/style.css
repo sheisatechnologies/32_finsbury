@@ -54,13 +54,13 @@ body {
     transition: 0.2s;
 }
 .button.red {
-    border-color: var(--clr-red);
+    border-color: var(--clr-red) !important;
     color: var(--clr-red);
     letter-spacing: 1.4px;
 }
 .button.red:hover {
     background: var(--clr-red);
-    color: var(--clr-white);
+    color: var(--clr-pink-light);
 }
 .button.blue {
     border-color: var(--clr-blue);
@@ -70,16 +70,20 @@ body {
 }
 .button.blue:hover {
     background: var(--clr-blue);
-    color: var(--clr-white);
+    color: var(--clr-blue-light)
 }
 .button.blue-light {
     border-color: var(--clr-blue-light);
     color: var(--clr-blue-light);
     letter-spacing: 1.4px;
 }
+
+
+
+
 .button.blue-light:hover {
     background: var(--clr-blue-light);
-    color: var(--clr-black);
+    color: var(--clr-blue);
 }
 .button.green {
     border-color: var(--clr-green);
