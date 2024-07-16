@@ -3229,6 +3229,14 @@ bottom: 0;
   
 }
 
+.b-para .button:hover{
+    color: var(--clr-red);
+    
+  
+}
+
+
+
 .b-para1 p{
     color: #FDE0E6;
     font-weight: 600;
