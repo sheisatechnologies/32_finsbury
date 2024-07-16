@@ -2720,7 +2720,7 @@ background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 60px;
+    padding: 30px 0px;
 }
 .openbg #icon1{
 
@@ -3474,7 +3474,7 @@ height: 100px;
 
 .open-title{
 
-    padding-left: 55px !important;
+    padding-left: 20px !important;
 }
 
 .sus-h1{
