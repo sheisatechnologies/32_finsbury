@@ -70,7 +70,7 @@ body {
 }
 .button.blue:hover {
     background: var(--clr-blue);
-    color: var(--clr-white);
+    color: var(--clr-blue-light);
 }
 .button.blue-light {
     border-color: var(--clr-blue-light);
@@ -97,10 +97,20 @@ body {
 }
 .button.green-light:hover {
     background: var(--clr-green-light);
-    color: var(--clr-black);
+    color: var(--clr-green);
 }
 
+.button{
+    border-color: var(--clr-pink-light);
+    color: var(--clr-pink-light);
+    letter-spacing: 4%;
+}
 
+.button:hover{
+    background: var(--clr-pink-light);
+    color: var(--clr-red);
+    
+}
 
 
 
@@ -1195,6 +1205,12 @@ body {
         padding: 50px;
         padding-bottom: 300px;
     }
+
+    .title-colla{
+             margin-left: -32px;
+    }
+
+
     .infoSection1 .right .title .top {
         display: flex;
         align-items: center;
@@ -1301,6 +1317,8 @@ body {
         letter-spacing: 12px;
 
     }
+
+   
 
     .infoSection1 .right .title .bottom {
         color: var(--clr-pink);
@@ -2248,6 +2266,10 @@ body {
     flex-direction: row;
     padding-top: 20px;
 }
+
+.title-7{
+    margin-left: 15px;
+}
 .feelGoodDesignSection .topBar .navigation {
     display: flex;
     align-items: center;
@@ -2461,6 +2483,7 @@ body {
         font-weight: var(--font-medium);
         color: var(--clr-pink);
         word-spacing: 10px;
+        margin-left: 22px;
        
     }
 
@@ -2679,7 +2702,7 @@ body {
 }
 
 .requestInfo .iconbox5 img{
-width: 100%;
+width: 97%;
 height: 100%;
 background-position: center;
 background-size: cover;
@@ -2848,10 +2871,13 @@ background-size: cover;
     column-gap: 6vw;
 }
 .desk-loc{
-    width: 600px;
+    width: 491px;
+    height: 92px;
     padding-bottom: 30px;
     font-size: 15px;
     line-height: 23px;
+    color: #521616;
+    font-weight: 400;
 }
 
 .feelGoodSliderWrapper .item img{
@@ -3213,13 +3239,15 @@ bottom: 0;
 
 
 .b-para .button{
-    color: white;
-    border: 1px solid white;
+    color: #FDE0E6;
+    border: 1px solid #FDE0E6;
   
 }
 
 .b-para1 p{
-    color: white;
+    color: #FDE0E6;
+    font-weight: 600;
+    line-height: 25px;
 }
 
 .infoSection3 .home-well-box{
@@ -3322,7 +3350,11 @@ width: 500px;
     text-transform: uppercase;
     margin-top: 10px;
     color:#0F2D84;
+    font-weight: 600;
+    margin-left: 30px;
+    line-height: 25px;
 }
+
 
 .owl-carousel, .owl-carousel.owl-loaded {
     display: block;
