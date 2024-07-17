@@ -608,8 +608,9 @@
 
     .sustain-page .infoSection1 {
 
-        height: 950px;
+        height: 600px;
         padding-left: 30px;
+        background-size: 100% 0 !important;
     }
 
 
@@ -1098,7 +1099,7 @@
         height: 80px;
         position: absolute;
         right: 0;
-        bottom: -32px;
+        bottom: 20px;
         background-color: var(--clr-green);
     }
 
@@ -1107,7 +1108,7 @@
         height: 84px;
         position: absolute;
         right: 0;
-        bottom: -10px;
+        bottom: 20px;
         background-color: var(--clr-green);
     }
 
@@ -1193,8 +1194,10 @@
     }
 
 
-    .infoSection2 {
+    .sustain-page .infoSection2 {
         background-image: unset;
+        background-size: 100% 0px;
+        height: 600px;
     }
 
     .infoSection1 .right .title .top,
