@@ -1873,6 +1873,12 @@
 
 @media (max-width: 767px) {
 
+    .bil-phon-img{
+
+        width: 100%;
+        height: 500px;
+    }
+
     
     .header .menuWrapper.open ul li a {
         font-size: 20px;
