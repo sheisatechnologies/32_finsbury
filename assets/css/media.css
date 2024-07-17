@@ -567,6 +567,7 @@
         padding-top: 0px;
         font-size: var(--font-size_para);
         line-height: 26px;
+        width: 340px;
     }
 
     .b-title-m1 span {
@@ -593,7 +594,7 @@
 
     .smart-hed {
 
-        padding-left: 10px;
+        padding-left: 5px;
         font-size: 19px;
     }
 
@@ -751,6 +752,7 @@
         width: 350px;
         padding-left: 15px;
         padding-top: 0px;
+        margin-top: 20px;
     }
 
     .header {
@@ -889,6 +891,7 @@
     .home-page .infoSection2 .c-bottom {
         padding: 5px;
         padding-top: 0px;
+        margin-top: 30px;
     }
 
 
@@ -903,6 +906,7 @@
         padding-bottom: 50px;
         font-size: var(--font-size_para);
         line-height: 26px;
+        margin-left: -10px;
     }
 
     .infoSection1 .right .desc {
@@ -1020,14 +1024,17 @@
 
     .sustain-page .infoSection1 .right .desc1 .desc_col {
         flex-direction: column;
+        row-gap: 30px;
     }
+
+    
 
 
     .sustain-page .infoSection1 .right .desc1 {
 
         flex-direction: column;
         flex-direction: column;
-        padding-top: 50px;
+        padding-top: 70px;
         margin-left: -10px;
         row-gap: 50px;
     }
@@ -1484,7 +1491,7 @@
 
     .design-box1-buil {
         width: 184px;
-        top: 520px;
+        top: 551px;
         left: 0;
     }
 
@@ -1676,6 +1683,7 @@
 
     .sustain-page .infoSection2 .left .top {
         letter-spacing: 7px;
+        margin-left: -40px;
     }
 
 
@@ -1716,12 +1724,12 @@
     }
 
     .sus-h1 {
-        word-spacing: 25px;
+        word-spacing: 10px;
         font-size: 36px;
     }
 
     .sus-h2 {
-        word-spacing: 91px;
+        word-spacing: 80px;
         font-size: 36px;
         padding-bottom: 10px;
     }
@@ -1943,7 +1951,7 @@
 
     .enquire_final {
         word-spacing: 80px !important;
-        margin-left: -40px;
+        margin-left: -20px;
     }
 
     .title-colla {
@@ -1973,6 +1981,29 @@
         line-height: 120px;
         font-weight: 400;
     }
+
+    .home-page .infoSection1 .right .desc {
+        width: 600px;
+    }
+
+    .open-tittle{
+        margin-left: -22px;
+        word-spacing: 135px;
+        
+    }
+
+    .leading-title{
+        margin-right: -38px;
+    }
+
+    .crab1{
+        margin-top: -30px;
+    }
+
+   
+   
+
+    
 
 
 
@@ -2054,7 +2085,6 @@
     .infoSection2 .title .bottom {
         font-size: 36px;
         word-spacing: 70px;
-        padding-left: 5px;
     }
 
     .infoSection2 .container .top-b {
@@ -2365,14 +2395,14 @@
 
     .requestInfo .reg_1 {
 
-        word-spacing: 150px;
-        margin-left: -35px;
+        word-spacing: 142px;
+        margin-left: -25px;
     }
 
     .requestInfo .reg_2 {
 
-        letter-spacing: 9px;
-        margin-left: -25px;
+        letter-spacing: 8px;
+        margin-left: -20px;
     }
 
     .openToChangeSection .designBoxnum {
@@ -2389,6 +2419,7 @@
         padding-bottom: 400px;
         background-size: 100% 400px;
         height: 550px;
+        margin-top: -2px;
     }
 
     .sub-head {
@@ -2428,6 +2459,7 @@
 
     .no-desk {
         display: block;
+        margin-top: -2px;
        
         
     }
@@ -2475,7 +2507,7 @@
     }
 
     .ls {
-        letter-spacing: 45px !important;
+        letter-spacing: 55px !important;
     }
 
     .ls1 {

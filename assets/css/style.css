@@ -1679,6 +1679,7 @@ body {
     padding: 0px;
     width: 298px;
     font-weight: 600;
+    margin-top: -30px;
 
 }
 
@@ -2960,10 +2961,11 @@ body {
 }
 
 .requestInfo .iconbox5 img {
-    width: 96%;
+    width: 98%;
     height: 100%;
     background-position: center;
     background-size: cover;
+    margin-left: -23px;
 
 }
 
@@ -3291,6 +3293,12 @@ td {
 .desk_p_first{
     width: 229px;
     font-weight: 600;
+    margin-top: -30px;
+}
+
+.crab1{
+    position: absolute;
+    padding-top: 8px;
 }
 
 .susdis {
@@ -3487,7 +3495,7 @@ td {
     padding-right: 300px;
     padding-left: 5px;
     line-height: 23px;
-    width: 600px;
+    width: 750px;
 }
 
 .home-page .infoSection2 .left .desc {
@@ -3496,7 +3504,7 @@ td {
     padding-right: 300px;
     padding-left: 20px;
     line-height: 23px;
-    width: 650px;
+    width: 800px;
     margin-top: 40px;
 }
 
