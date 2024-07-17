@@ -12,6 +12,8 @@
     --font-regular: 400;
     --font-medium: 500;
     --font-semibold: 600;
+    --font-size_para: 17px;
+    --font-size_heading2: 36px;
 }
 
 
@@ -19,6 +21,7 @@ body {
     font-family: 'Manrope', sans-serif;
     display: flex;
     justify-content: center;
+   
 
 
 }
@@ -1669,11 +1672,13 @@ body {
     color: var(--clr-pink);
     padding: 30px 0px;
     line-height: 120px;
+    font-weight: 400;
 }
 
 .sustain-page .infoSection1 .right .desc1 .desc_col .desk_p {
     padding: 0px;
     width: 298px;
+    font-weight: 600;
 
 }
 
@@ -2955,7 +2960,7 @@ body {
 }
 
 .requestInfo .iconbox5 img {
-    width: 97%;
+    width: 96%;
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -3285,6 +3290,7 @@ td {
 
 .desk_p_first{
     width: 229px;
+    font-weight: 600;
 }
 
 .susdis {
@@ -3726,7 +3732,7 @@ td {
 
 .smart-hed {
 
-    font-size: 18px;
+    font-size: 19px;
     text-transform: uppercase;
     color: #CDFAD5;
     margin-top: 20px;

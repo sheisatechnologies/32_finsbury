@@ -1,3 +1,25 @@
+:root {
+    --clr-white: #fff;
+    --clr-black: #000;
+    --clr-red: #521616;
+    --clr-pink: #FF3A9E;
+    --clr-pink-light: #FDE0E6;
+    --clr-blue: #0F2D84;
+    --clr-blue-light: #C8DCFF;
+    --clr-green: #003B43;
+    --clr-green-light: #CDFAD5;
+
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-size_para: 17px;
+    --font-size_heading2: 36px;
+}
+
+
+
+
+
 @media (min-width: 1500px) {
 
     .no-desk-box2 {
@@ -428,13 +450,18 @@
 
     .building-page .bigHeading .bil-working {
 
-        word-spacing: 170px;
+        word-spacing: 120px;
     }
 
     .building-page .bigHeading .bil-purpose {
 
-        word-spacing: 140px;
+        word-spacing: 70px;
 
+    }
+
+    .building-page .bigHeading .bil-working1 {
+
+        word-spacing: 10px;
     }
 
     .high-text {
@@ -465,7 +492,7 @@
 
     .sustain-page .slidercontent .sus-tar {
 
-        letter-spacing: 40px;
+        letter-spacing: 43px;
     }
 
     .phon-work {
@@ -505,7 +532,7 @@
         border-color: var(--clr-blue);
         color: var(--clr-blue);
         letter-spacing: 1.4px;
-        margin-top: 30px;
+        margin-top: 0px;
         margin-left: 10px;
     }
 
@@ -538,6 +565,8 @@
         color: var(--clr-blue);
         padding-left: 0px !important;
         padding-top: 0px;
+        font-size: var(--font-size_para);
+        line-height: 26px;
     }
 
     .b-title-m1 span {
@@ -841,12 +870,13 @@
 
     .bslide-title {
 
-        font-size: 30px;
+        font-size: 36px;
         font-family: 'Manrope', sans-serif;
         text-transform: uppercase;
         color: #FF3A9E;
         margin-top: -10px;
-        letter-spacing: 5px;
+        letter-spacing: 4px;
+        margin-left: -20px;
     }
 
 
@@ -871,7 +901,7 @@
 
         padding-right: 0px;
         padding-bottom: 50px;
-        font-size: 17px;
+        font-size: var(--font-size_para);
         line-height: 26px;
     }
 
@@ -999,6 +1029,7 @@
         flex-direction: column;
         padding-top: 50px;
         margin-left: -10px;
+        row-gap: 50px;
     }
 
     .feelGoodDesignSection {
@@ -1373,11 +1404,11 @@
 
 
     .building-page .openToChangeSection .bigHeading {
-        font-size: 31px;
-        line-height: 10px;
-
+        font-size: 36px;
+        line-height: 43px;
         justify-content: flex-start;
         gap: 10px;
+        margin-left: -25px;
     }
 
     .building-page .openToChangeSection .items .item {
@@ -1453,7 +1484,7 @@
 
     .design-box1-buil {
         width: 184px;
-        top: 497px;
+        top: 520px;
         left: 0;
     }
 
@@ -1489,8 +1520,8 @@
 
 
     .building-page .floorplanSection .bigHeading {
-        font-size: 28px;
-        line-height: 30px;
+        font-size: var(--font-size_heading2);
+        line-height: 43px;
     }
 
 
@@ -1622,7 +1653,7 @@
         flex-wrap: wrap;
         align-content: center;
         align-items: stretch;
-        line-height: 29px;
+        line-height: 43px;
         font-size: 36px;
         margin-left: 0px;
 
@@ -1700,7 +1731,7 @@
 
 
     .feelGoodDesignSection .bigTitle {
-        font-size: 34px;
+        font-size: var(--font-size_heading2);
         margin-bottom: 20px;
         text-align: center;
         width: 100%;
@@ -1878,6 +1909,11 @@
         display: block;
     }
 
+    .building-page .requestInfo {
+        background-color: var(--clr-blue-light);
+        height: auto;
+    }
+
 
 
 
@@ -1895,6 +1931,7 @@
     }
 
     .infoSection3 .left .desc {
+        width: 288px;
         padding-right: 0;
     }
 
@@ -1911,10 +1948,30 @@
 
     .title-colla {
         margin-left: -3px;
+        font-size: 36px;
     }
 
     .feel_dash{
         display: none;
+    }
+
+    .building-page .openToChangeSection .items .item {
+        gap: 20px;
+    }
+
+    .building-page .openToChangeSection .items .item .text {
+        color: var(--clr-blue-light);
+        line-height: 26px;
+        font-size: 17px;
+    }
+
+    .sustain-page .infoSection1 .right .desc1 .desc_col .number {
+        font-size: 100px;
+        line-height: 70px;
+        color: var(--clr-pink);
+        padding: 0px 0px;
+        line-height: 120px;
+        font-weight: 400;
     }
 
 
@@ -2018,7 +2075,8 @@
 
     .infoSection3 .title .top,
     .infoSection3 .title .bottom {
-        font-size: 30px;
+        font-size: 36px;
+        margin-top: -30px;
     }
 
     .infoSection3 .left {
@@ -2111,7 +2169,7 @@
         display: flex;
 
         flex-direction: column;
-        row-gap: 30px;
+        row-gap: 50px;
 
     }
 
@@ -2122,7 +2180,7 @@
         display: flex;
 
         flex-direction: column;
-        row-gap: 30px;
+        row-gap: 50px;
 
     }
 
@@ -2266,7 +2324,7 @@
 
 
     .requestInfo .left {
-        font-size: 35px;
+        font-size: 36px;
         padding: -5px !important;
         padding-bottom: 5px;
         padding-right: 0px;
@@ -2274,6 +2332,7 @@
         letter-spacing: 0px;
         word-spacing: 80px;
         margin-left: 0px;
+        line-height: 43px;
     }
 
     .requestInfo .left .title-3 {
@@ -2369,6 +2428,7 @@
 
     .no-desk {
         display: block;
+       
         
     }
 
@@ -2426,7 +2486,7 @@
 
     .ls2 {
 
-        letter-spacing: 32px;
+        letter-spacing: 14px;
         font-size: 36px;
     }
 
@@ -2455,7 +2515,9 @@
         font-size: 36px;
         letter-spacing: 20px;
         padding-left: 10px;
-        padding-top: 20px;
+        padding-top: 30px;
+        line-height: 43px;
+        padding-bottom: 20px;
 
     }
 
@@ -2489,7 +2551,7 @@
         color: var(--clr-pink);
         text-transform: uppercase;
         font-size: 36px;
-        letter-spacing: 18px;
+        letter-spacing: 14px;
         word-spacing: 100px;
         font-weight: var(--font-medium);
         column-gap: 150px;
@@ -2521,7 +2583,7 @@
 
 
     .sus-desc {
-        font-size: 18px;
+        font-size: var(--font-size_para);
         padding-right: 0px !important;
         padding-bottom: 30px;
         line-height: 26px;
@@ -2533,7 +2595,7 @@
     }
 
     #main-logo-container {
-        row-gap: 50px;
+        row-gap: 80px;
     }
 
 }
