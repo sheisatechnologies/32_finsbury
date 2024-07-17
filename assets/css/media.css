@@ -600,8 +600,9 @@
 
     .building-page .infoSection1 {
 
-        height: auto;
+        /* height: auto; */
         padding-left: 20px;
+        background-size: 100% 0 !important;
     }
 
     .sustain-page .infoSection1 {
@@ -1441,7 +1442,7 @@
     .building-page .infoSection1 {
         padding-bottom: 300px;
         background-position: bottom left !important;
-        background-size: 100% auto !important;
+        background-size: 100% auto;
         background-attachment: unset;
         background-repeat: no-repeat;
     }
@@ -1501,7 +1502,7 @@
         height: 80px;
         background-color: var(--clr-blue-light);
         position: absolute;
-        bottom: 300px;
+        bottom: 0px;
         right: 0;
     }
 
@@ -1872,6 +1873,13 @@
 
 
 @media (max-width: 767px) {
+
+
+    .building-page .infoSection2 {
+
+        height: 500px;
+        background-size: 100% 0px !important;
+    }
 
     .leading-title {
         margin-right: -38px;
