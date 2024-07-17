@@ -492,7 +492,8 @@
 
     .sustain-page .slidercontent .sus-tar {
 
-        letter-spacing: 43px;
+        letter-spacing: 35px;
+        padding-left: 0px;
     }
 
     .phon-work {
@@ -878,8 +879,8 @@
         text-transform: uppercase;
         color: #FF3A9E;
         margin-top: -10px;
-        letter-spacing: 4px;
-        margin-left: -20px;
+               /* letter-spacing: 4px; */
+               margin-left: -2px;
     }
 
 
