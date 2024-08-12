@@ -361,14 +361,13 @@ body {
 }
 
 .heroSliderWrapper .heroSlider .sliderInner {
-    height: calc(100vh - 90px);
+    height: auto;
     overflow: hidden;
     position: relative;
 }
 
 .heroSliderWrapper .heroSlider .sliderInner img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
@@ -3015,7 +3014,7 @@ body {
 }
 
 .enquire_final{
-    word-spacing: 80px !important;
+    word-spacing: 70px !important;
     margin-left: -30px; 
 }
 
@@ -4262,7 +4261,7 @@ td {
 
 .hero-phon{
 
-    display: none;
+    display: none !important;
 }
 
 .hero-desk{
@@ -4291,4 +4290,10 @@ margin-top: 80px;
     position: absolute;
     bottom: -110px;
     z-index: 1;
+}
+
+
+
+.hero-desk{
+    margin-top: -100px;
 }

@@ -2090,7 +2090,7 @@
 
     .hero-phon{
 
-        display: block;
+        display: block !important;
        
     }
 
