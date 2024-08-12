@@ -2032,7 +2032,9 @@
     }
 
    
-   
+   .building-hero {
+   display: none;
+}
 
     
 
