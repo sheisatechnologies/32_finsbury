@@ -297,7 +297,7 @@ body {
 
 /**************************************** SLIDER SECTION */
 .home-page .heroSliderWrapper {
-    background-color: var(--clr-red);
+    /* background-color: var(--clr-red); */
     padding-top: 90px;
     margin-top: -90px;
 }
@@ -405,7 +405,7 @@ body {
 .heroSliderWrapper .heroSlider .textBlock .text .bottom .bottom1,
 .heroSliderWrapper .heroSlider .textBlock .text .bottom .bottom2 {
     font-weight: var(--font-medium);
-    background-color: var(--clr-red);
+    /* background-color: var(--clr-red); */
     display: inline-block;
     color: var(--clr-pink);
     padding: 10px 60px;
@@ -656,14 +656,14 @@ body {
     bottom: -120px;
 }
 
-.sustain-page .innerHeroSliderWrapper .heroInner .designBoxes .designBox1 {
+/* .sustain-page .innerHeroSliderWrapper .heroInner .designBoxes .designBox1 {
     position: absolute;
     bottom: 0;
     left: 0;
     background-color: var(--clr-green);
     width: 415px;
     height: 120px;
-}
+} */
 
 
 
@@ -3517,8 +3517,7 @@ td {
 
     width: 600px;
     height: 100px;
-    background-color: var(--clr-red);
-    ;
+   
     position: absolute;
     bottom: 0;
     padding: 20px 60px;
@@ -3528,8 +3527,8 @@ td {
 
     width: 400px;
     height: 100px;
-    background-color: var(--clr-red);
-    ;
+    /* background-color: var(--clr-red);
+    ; */
     position: absolute;
     bottom: 100px;
     padding: 30px 60px;
@@ -4261,4 +4260,35 @@ td {
     height: 700px;
 }
 
-.pinch-zoom {}
+.hero-phon{
+
+    display: none;
+}
+
+.hero-desk{
+
+    display: block !important;
+}
+
+.building-hero{
+
+    width: 100%;
+margin-top: 80px;
+}
+
+.sus-2img{
+
+   
+
+    width: 600px !important;
+    margin-top: -20px;
+    
+}
+
+.sus2img{
+
+   
+    position: absolute;
+    bottom: -110px;
+    z-index: 1;
+}

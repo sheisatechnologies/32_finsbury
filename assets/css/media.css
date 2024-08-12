@@ -690,7 +690,7 @@
     .b-para1 {
         width: 400px;
         height: 100px;
-        background-color: var(--clr-red);
+        /* background-color: var(--clr-red); */
         position: absolute;
         bottom: 100px;
         padding: 30px 20px;
@@ -700,7 +700,7 @@
     .b-para {
         width: 600px;
         height: 120px;
-        background-color: var(--clr-red);
+        /* background-color: var(--clr-red); */
         position: absolute;
         bottom: 0;
         padding: 30px 20px;
@@ -745,7 +745,8 @@
         background-color: var(--clr-red);
         letter-spacing: 1px;
         font-weight: 500;
-        padding: 0px 30px;
+       
+        padding: 0px 20px;
     }
 
     .home-page .infoSection2 .left .desc {
@@ -900,7 +901,7 @@
 
     .home-page .infoSection2 .left .title .top {
 
-        letter-spacing: 10px;
+        letter-spacing: 12px;
     }
 
     .infoSection2 .left .desc {
@@ -1213,11 +1214,11 @@
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding-left: 15px;
+        padding-left: 10px;
     }
 
     .home-page .infoSection2 .left .title .top .title-1 {
-        letter-spacing: 14px;
+        letter-spacing: 16px;
     }
 
     .info-home {
@@ -1300,7 +1301,8 @@
     .location-page .innerHeroSliderWrapper .heroInner .textBlock .text .bottom .bottom1 {
         font-size: 40px;
         line-height: 65px;
-        padding: 10px;
+        padding: 10px 20px;
+;
         letter-spacing: 3px;
         text-align: right;
     }
@@ -1370,7 +1372,7 @@
 
 
     .building-page .innerHeroSliderWrapper .heroInner {
-        height: 700px;
+        height: 730px;
     }
 
     .building-page .innerHeroSliderWrapper .heroInner .textBlock .text .top .top1,
@@ -2071,6 +2073,31 @@
 
 
 @media (max-width: 576px) {
+
+
+    .hero-desk{
+
+        display: none !important;
+    }
+
+    .heroSliderWrapper .heroSlider .sliderInner {
+        height: 100% ;
+        overflow: hidden;
+        position: relative;
+    }
+
+
+
+    .hero-phon{
+
+        display: block;
+       
+    }
+
+    .bil-img-phon{
+         margin-top: 80px;
+
+    }
 
     .map-con{
 
