@@ -551,7 +551,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 64px;
     margin-top: 100px;
-    padding-left: 45px;
+    padding-left: 25px;
 }
 
 .contact-page .innerHeroSliderWrapper .textBlock .item {
@@ -582,7 +582,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 30px;
 }
 
 
@@ -955,7 +955,7 @@ body {
 .location-page .enquireWrapper {
     background-color: var(--clr-pink-light);
     text-align: center;
-    padding: 30px 30px;
+    padding: 30px 10px;
     position: relative;
 }
 
@@ -963,7 +963,7 @@ body {
 .enquireWrapper {
     background-color: var(--clr-pink-light);
     text-align: center;
-    padding: 30px 30px;
+    padding: 30px 10px;
     position: relative;
 }
 
@@ -1332,7 +1332,7 @@ body {
 
 .infoSection1 .right {
     background-color: var(--clr-blue);
-    padding: 50px;
+    padding: 20px;
     padding-bottom: 300px;
 }
 
@@ -1364,7 +1364,7 @@ body {
     text-transform: uppercase;
     font-size: 50px;
     letter-spacing: 0px;
-    word-spacing: 120px;
+    word-spacing: 170px;
     font-weight: var(--font-medium);
     column-gap: 150px;
     margin-left: -50px;
@@ -1441,7 +1441,7 @@ body {
     word-spacing: 40px;
     font-weight: var(--font-medium);
     column-gap: 20px;
-
+    margin-left: 5rem;
 }
 
 .infoSection1 .right .title .topinfo1 {
@@ -1458,8 +1458,9 @@ body {
     font-size: 55px;
 
     font-weight: var(--font-medium);
-    letter-spacing: 143px;
+    letter-spacing: 120px !important;
     text-align: center;
+    
 }
 
 
@@ -1571,7 +1572,7 @@ body {
 }
 
 .building-page .infoSection2 .left {
-    padding: 30px;
+    padding: 30px 15px;
     height: 530px;
 }
 
@@ -1792,7 +1793,7 @@ body {
 }
 
 .sustain-page .infoSection2 .left {
-    padding: 50px;
+    padding: 50px 20px;
 }
 
 .sustain-page .infoSection2 .left .top {
@@ -2081,7 +2082,7 @@ body {
 /**************************************** LOCATION CIRCLE SECTION */
 .locationCircleSection {
     margin: 64px 0;
-    padding: 0px 40px;
+    padding: 0px 30px;
 }
 
 .locationCircleSection .locationItem {
@@ -2289,7 +2290,7 @@ body {
 /**************************************** DOWNLOAD BUTTONS SECTION */
 .download-page .buttonsSection {
     background-color: var(--clr-blue-light);
-    padding: 200px 50px;
+    padding: 200px 25px;
     position: relative;
 }
 
@@ -3014,7 +3015,7 @@ body {
 }
 
 .enquire_final{
-    word-spacing: 70px !important;
+    word-spacing: 90px !important;
     margin-left: -30px; 
 }
 
@@ -3492,7 +3493,7 @@ td {
     color: var(--clr-blue-light);
     font-size: 15px;
     padding-right: 300px;
-    padding-left: 5px;
+    padding-left: 2px;
     line-height: 23px;
     width: 750px;
 }
@@ -3780,7 +3781,7 @@ td {
 
 .open-title {
 
-    padding-left: 20px !important;
+    padding-left: 10px !important;
 }
 
 .sus-h1 {
@@ -4318,3 +4319,92 @@ margin-top: 80px;
 
     margin-top: 10px !important;
 }
+
+
+.contact-hero{
+    width: 100%;
+    margin-left: -20px;
+}
+
+
+.sustain-hero{
+    margin-top: -3px;
+}
+
+.amaster_text{
+
+    max-width: 800px;
+}
+
+.text-3{
+    
+    color: var(--clr-pink);
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 0px;
+    word-spacing: 170px;
+    font-weight: var(--font-medium);
+   
+}
+
+.text-4{
+    
+    color: var(--clr-pink);
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 0px;
+    word-spacing: 170px;
+    font-weight: var(--font-medium);
+    letter-spacing: 160px;
+   
+}
+
+.text-5{
+    
+    color: var(--clr-pink);
+    text-transform: uppercase;
+    font-size: 50px;
+    
+    word-spacing: 170px;
+    font-weight: var(--font-medium);
+    letter-spacing: 50px;
+   
+}
+
+.text-6{
+    letter-spacing: 23px;
+
+}
+
+.text-7{
+    letter-spacing: 95px;
+
+}
+
+
+    .text-8{
+    
+        color: var(--clr-pink);
+        text-transform: uppercase;
+        font-size: 50px;
+        letter-spacing: 0px;
+        word-spacing: 220px;
+        font-weight: var(--font-medium);
+       
+    }
+
+    .text-9{
+    
+        color: var(--clr-pink);
+        text-transform: uppercase;
+        font-size: 50px;
+        letter-spacing: 0px;
+        word-spacing: 170px;
+        font-weight: var(--font-medium);
+        letter-spacing: 75px;
+       
+    }
+
+
+
+
