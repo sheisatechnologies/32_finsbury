@@ -162,7 +162,7 @@ body {
 /**************************************** HEADER */
 .header {
     /* background: var(--clr-red); */
-    padding: 25px 50px;
+    padding: 25px 30px;
     position: sticky;
     top: 0;
     z-index: 9999999;
@@ -1841,7 +1841,7 @@ body {
     background-position: bottom left;
     background-size: 61% auto;
     height: 530px;
-    padding-left: 30px;
+    padding-left: 10px;
 
 }
 
@@ -1953,7 +1953,7 @@ body {
     background-position: bottom right;
     /* background-size: 70% 30%; */
     height: 350px;
-    padding: 20px 50px;
+    padding: 20px 30px;
 }
 
 .infoSection3 .imageWrapper {
@@ -2712,7 +2712,7 @@ body {
 
 .requestInfo {
     background: var(--clr-pink-light);
-    padding: 10px 30px;
+    padding: 10px 10px;
 }
 
 .requestInfo .left {
@@ -2785,7 +2785,7 @@ body {
 /**************************************** /FOOTER */
 .footer {
     background-color: var(--clr-red);
-    padding: 30px 50px;
+    padding: 30px 30px;
 
 }
 
@@ -3519,7 +3519,7 @@ td {
    
     position: absolute;
     bottom: 0;
-    padding: 20px 60px;
+    padding: 20px 40px;
 }
 
 .b-para1 {
@@ -3530,7 +3530,7 @@ td {
     ; */
     position: absolute;
     bottom: 100px;
-    padding: 30px 60px;
+    padding: 30px 40px;
 
 }
 
