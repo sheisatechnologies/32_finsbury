@@ -19,6 +19,11 @@
 
 @media screen and (min-width: 991px) and (max-width: 1400px) {
 
+    .open_air_title{
+
+        margin-left: 0px !important; 
+    }
+
     .perfect_top{
 
                 margin-left: 0px !important; 
@@ -90,6 +95,12 @@
 
 
 @media (min-width: 1400px) {
+
+    .open_air_title{
+
+        margin-left: 0px !important; 
+    }
+
 
     .perfect_top{
 
