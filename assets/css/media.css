@@ -17,13 +17,25 @@
 }
 
 
-@media screen and (min-width: 991px) and (max-width: 1440px) {
+@media screen and (min-width: 991px) and (max-width: 1400px) {
+
+    .sus-2img {
+        width: 562px !important;
+        margin-top: -35px;
+    }
+
+    .text-7 {
+        letter-spacing: 85px !important;
+    }
+    .text-6 {
+        letter-spacing: 19px !important;
+    }
     .text-3 {
         color: var(--clr-pink);
         text-transform: uppercase;
         font-size: 50px;
         letter-spacing: 0px;
-        word-spacing: 100px;
+        word-spacing: 140px;
         font-weight: var(--font-medium);
     }
 
@@ -34,7 +46,28 @@
     letter-spacing: 0px;
    
     font-weight: var(--font-medium);
-    letter-spacing: 100px;
+    letter-spacing: 110px;
+}
+
+.enquire_final {
+    word-spacing: 70px !important;
+    margin-left: -30px;
+}
+
+.openbg .icon-box {
+    margin-left: 77px;
+}
+
+.text-5 {
+    letter-spacing: 36px;
+}
+
+.text-8 {
+    word-spacing: 195px;
+}
+
+.text-9 {
+    letter-spacing: 67px;
 }
 
 
@@ -44,7 +77,14 @@
   }
 
 
-@media (min-width: 1500px) {
+@media (min-width: 1400px) {
+
+    .text-4 {
+       
+        word-spacing: 170px;
+       
+        letter-spacing: 122px;
+    }
 
     .no-desk-box2 {
         width: 250px;
