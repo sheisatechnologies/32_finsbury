@@ -19,7 +19,10 @@
 
 @media screen and (min-width: 991px) and (max-width: 1400px) {
 
+    .perfect_top{
 
+                margin-left: 0px !important; 
+    }
     .sustain-page .infoSection2 .left .top {
         margin-left: -7px;
     }
@@ -88,6 +91,10 @@
 
 @media (min-width: 1400px) {
 
+    .perfect_top{
+
+        margin-left: 0px !important; 
+}
 
     .low_carb_text{
 
