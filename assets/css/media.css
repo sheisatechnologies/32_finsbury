@@ -79,6 +79,11 @@
 
 @media (min-width: 1400px) {
 
+
+    .low_carb_text{
+
+        padding-left: 90px;
+    }
     .text-4 {
        
         word-spacing: 170px;
@@ -147,6 +152,7 @@
         font-size: 50px;
         text-align: center;
         margin-left: -60px;
+        
     }
 
     .infoSection1 .right .title .bottom,
