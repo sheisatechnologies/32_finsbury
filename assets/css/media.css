@@ -146,6 +146,7 @@
     .infoSection2 .title .bottom {
         font-size: 50px;
         text-align: center;
+        margin-left: -50px;
     }
 
     .infoSection1 .right .title .bottom,
