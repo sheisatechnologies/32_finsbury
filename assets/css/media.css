@@ -17,7 +17,31 @@
 }
 
 
+@media screen and (min-width: 991px) and (max-width: 1440px) {
+    .text-3 {
+        color: var(--clr-pink);
+        text-transform: uppercase;
+        font-size: 50px;
+        letter-spacing: 0px;
+        word-spacing: 100px;
+        font-weight: var(--font-medium);
+    }
 
+    .text-4 {
+    color: var(--clr-pink);
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 0px;
+   
+    font-weight: var(--font-medium);
+    letter-spacing: 100px;
+}
+
+
+
+
+
+  }
 
 
 @media (min-width: 1500px) {
@@ -402,7 +426,7 @@
 
 
 
-@media (max-width: 676px) {
+@media (max-width: 991px) {
 
     .building-page .openToChangeSection {
        
@@ -1877,7 +1901,7 @@
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
 
    
     .building-page .infoSection2 {
@@ -2082,7 +2106,7 @@
 
 
 
-@media (max-width: 576px) {
+@media (max-width: 991px) {
 
 
 
