@@ -505,6 +505,7 @@
     .building-page .openToChangeSection {
        
         height: 140vh;
+        padding: 50px 20px;
     }
 
 
@@ -600,7 +601,9 @@
 
     .f-logos {
 
-        padding: 0px 30px;
+        padding: 0px 0px 0px 40px;
+        width: 90%;
+
     }
 
     .footer .right .imageWrapper img {
@@ -667,6 +670,7 @@
         font-size: var(--font-size_para);
         line-height: 26px;
         width: 340px;
+        margin-left:-20px
     }
 
     .b-title-m1 span {
@@ -919,7 +923,7 @@
 
     .footer {
         background-color: var(--clr-red);
-        padding: 30px 10px;
+        padding: 30px 20px;
     }
 
     .footer .right {
@@ -2261,6 +2265,7 @@
     .infoSection2 .title .bottom {
         font-size: 36px;
         word-spacing: 70px;
+        margin-left: -20px;
     }
 
     .infoSection2 .container .top-b {
@@ -2272,7 +2277,7 @@
 
     .infoSection1 .right,
     .infoSection2 .left {
-        padding: 50px 0px;
+        padding: 50px 30px !important;
         padding-left: 0px;
         padding-bottom: 50px !important;
     }
@@ -2612,7 +2617,7 @@
         word-spacing: 80px;
         margin-left: 0px;
         line-height: 43px;
-        padding: 24px;
+        /* padding: 24px; */
     }
 
     .requestInfo .left .title-3 {
@@ -2645,14 +2650,14 @@
 
     .requestInfo .reg_1 {
 
-        word-spacing: 142px;
-        margin-left: -25px;
+        word-spacing: 140px;
+        margin-left: -15px;
     }
 
     .requestInfo .reg_2 {
 
         letter-spacing: 8px;
-        margin-left: -20px;
+        margin-left: -9px;
     }
 
     .openToChangeSection .designBoxnum {
