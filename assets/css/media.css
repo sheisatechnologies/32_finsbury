@@ -1831,8 +1831,9 @@
     }
 
     .sus-h1 {
-        word-spacing: 10px;
+        word-spacing: 30px;
         font-size: 36px;
+        margin-left: 20px;
     }
 
     .sus-h2 {
