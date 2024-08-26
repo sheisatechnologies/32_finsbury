@@ -1521,8 +1521,8 @@
         font-size: 36px;
         line-height: 43px;
         justify-content: flex-start;
-        gap: 10px;
-        margin-left: -1px;
+        gap: 6px;
+        margin-left: -4px;
     }
 
     .building-page .openToChangeSection .items .item {
