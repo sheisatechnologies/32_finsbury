@@ -1761,7 +1761,7 @@
     .sustain-page .infoSection1 .right .title .top {
         /* padding: 20px 20px; */
         display: flex;
-        top: 5px;
+        top: 25px;
         position: absolute;
         column-gap: 25px;
         flex-direction: row;
@@ -1863,9 +1863,9 @@
     }
 
     .feelGoodDesignSection .bigTitle .title-2 {
-        letter-spacing: 40px;
+        letter-spacing: 42px;
         font-size: 32px;
-        margin-left: -50px;
+        margin-left: -30px;
 
     }
 
@@ -2257,7 +2257,7 @@
 
     .infoSection1 .right,
     .infoSection2 .left {
-        padding: 30px 20px !important;
+        padding: 60px 20px !important;
         padding-left: 0px;
         padding-bottom: 50px !important;
     }
@@ -2620,7 +2620,7 @@
     .sustain-page .sus-last .low-carb-title .low-carb {
 
 
-        word-spacing: 70px !important;
+        word-spacing: 75px !important;
     }
 
     .sustain-page .sus-last .low-carb-title .foot-print {
