@@ -582,7 +582,7 @@
 
     .sustain-page .slidercontent .sus-tar {
 
-        letter-spacing: 35px;
+        letter-spacing: 38px;
         padding-left: 0px;
     }
 
@@ -2614,6 +2614,7 @@
                 /* letter-spacing: 4px !important; */
                 word-spacing: 20px !important;
                 margin-left: -27px;
+                margin-top: 10px;
     }
 
     .sustain-page .sus-last .low-carb-title .low-carb {
