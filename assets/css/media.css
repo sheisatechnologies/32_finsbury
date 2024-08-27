@@ -696,7 +696,7 @@
 
         padding-left: 5px;
         font-size: 19px;
-        margin-left: -2px;
+        margin-left: 2px;
     }
 
     .building-page .infoSection1 {
@@ -1010,7 +1010,7 @@
         padding-bottom: 50px;
         font-size: var(--font-size_para);
         line-height: 26px;
-        margin-left: -10px;
+        margin-left: -4px;
     }
 
     .infoSection1 .right .desc {
