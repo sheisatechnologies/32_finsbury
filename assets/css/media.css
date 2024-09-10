@@ -359,7 +359,7 @@
 
     .enquireWrapper .top span {
         font-size: 36px;
-        letter-spacing: 4px;
+        letter-spacing: 11px !important;
     }
 
     .enquireWrapper .top .title-5{
@@ -964,7 +964,7 @@
     }
 
     .no-phon {
-        display: none;
+        display: none !important;
     }
 
     .mapbigTitle {
@@ -1521,10 +1521,13 @@
         font-size: 36px;
         line-height: 43px;
         justify-content: flex-start;
-        gap: 6px;
+        gap: 7px;
         margin-left: -4px;
+        flex-direction: column;
     }
 
+
+    
     .building-page .openToChangeSection .items .item {
         display: grid;
         margin: 24px 0;
@@ -1857,7 +1860,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        letter-spacing: 7px;
+        letter-spacing: 24px;
         word-spacing: 21px;
         margin-left: 5px;
     }
@@ -2258,7 +2261,7 @@
 
     .infoSection1 .right,
     .infoSection2 .left {
-        padding: 60px 15px !important;
+        padding: 20px 15px !important;
         padding-left: 0px;
         padding-bottom: 50px !important;
     }
@@ -2296,6 +2299,22 @@
 
 
 @media (max-width: 991px) {
+
+
+    .infoSection2 .title .top, .infoSection2 .title .bottom {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        color: var(--clr-pink);
+        text-transform: uppercase;
+        font-size: 36px;
+        letter-spacing: 20px;
+        font-weight: var(--font-medium);
+        padding-left: 22px;
+        flex-direction: column;
+        margin-top: 0px;
+    }
 
     .reg_3{
 
@@ -2878,6 +2897,65 @@
 
 
 
+
+
+
+
+
+
+
+
+
+/*---------------------------------------
+this is our own class
+------------------------------------------*/
+
+
+@media (min-width:991px) {
+
+    .lsd-1{
+
+        letter-spacing: 5px;
+    }
+
+    .wsd{
+
+        word-spacing: 20px;
+    }
+}
+
+@media (max-width:991px) {
+
+
+   .lsd-0{
+    letter-spacing: 0.5px;
+   }
+
+    .lsd-1{
+
+        letter-spacing: 5px;
+    }
+
+    .lsd-2{
+
+        letter-spacing: 15px;
+    }
+
+    .lsd-3{
+
+        letter-spacing: 23px;
+    }
+
+    .lsd-4{
+
+        letter-spacing: 35px;
+    }
+
+    .wsd{
+
+        word-spacing: 20px;
+    }
+}
 
 
 
