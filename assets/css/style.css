@@ -3423,7 +3423,7 @@ td {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    column-gap: 30px;
+    column-gap: 20px;
 
 
 }
