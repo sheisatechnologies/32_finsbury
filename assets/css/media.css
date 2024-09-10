@@ -359,7 +359,7 @@
 
     .enquireWrapper .top span {
         font-size: 36px;
-        letter-spacing: 11px !important;
+        letter-spacing: 11px;
     }
 
     .enquireWrapper .top .title-5{
@@ -2915,7 +2915,7 @@ this is our own class
 
     .lsd-1{
 
-        letter-spacing: 5px;
+        letter-spacing: 5px !important;
     }
 
     .wsd{
@@ -2933,17 +2933,17 @@ this is our own class
 
     .lsd-1{
 
-        letter-spacing: 5px;
+        letter-spacing: 3.5px !important;
     }
 
     .lsd-2{
 
-        letter-spacing: 15px;
+        letter-spacing: 11px !important;
     }
 
     .lsd-3{
 
-        letter-spacing: 23px;
+        letter-spacing: 23px !important;
     }
 
     .lsd-4{
@@ -2955,6 +2955,31 @@ this is our own class
 
         word-spacing: 20px;
     }
+
+
+
+
+/* Margin top classes */
+    .mt-6{
+
+        margin-top: 6rem !important;
+    }
+/* Line Hight classes */
+
+.lh-1{
+
+    margin-top: 3rem !important;
+}
+
+/* Margin-left classes */
+
+.ml-1{
+    margin-left: 1rem !important;
+}
+
+
+
+
 }
 
 
