@@ -2926,16 +2926,44 @@ this is our own class
         letter-spacing: 5px !important;
     }
 
-    .wsd{
+    .wsd-1{
 
         word-spacing: 20px;
     }
+
+    .wsd-2{
+
+        word-spacing: 30px;
+    }
+
 
     
 }
 
 @media (max-width:991px) {
 
+
+    .wsd-1{
+
+        word-spacing: 20px;
+    }
+
+    .wsd-2{
+
+        word-spacing: 30px;
+    }
+
+    .wsd-3{
+
+        word-spacing: 30px;
+    }
+
+    .wsd-7{
+
+        word-spacing: 114px;
+    }
+
+   
 
    .lsd-0{
     letter-spacing: 0.5px;
@@ -2961,10 +2989,6 @@ this is our own class
         letter-spacing: 35px;
     }
 
-    .wsd{
-
-        word-spacing: 20px;
-    }
 
 
 
