@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --clr-white: #fff;
     --clr-black: #000;
@@ -489,6 +495,20 @@
 
 
 
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden; /* Hide overflow for the container */
+    }
+
+    
+}
 
 
 @media (max-width: 991px) {
