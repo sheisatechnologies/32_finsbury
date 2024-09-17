@@ -314,6 +314,11 @@ body {
     height: 100vh;
 }
 
+.textBlock .top .top2{
+
+    letter-spacing: 20px;
+}
+
 .contact-page .innerHeroSliderWrapper {
     background-color: var(--clr-green);
     padding-top: 90px;
@@ -665,7 +670,10 @@ body {
 } */
 
 
-
+.feelGoodDesignSection-sus .owl-stage-outer {
+    margin-top: 30px;
+    margin-left: -20px;
+}
 
 
 
@@ -1204,6 +1212,26 @@ body {
 
 
 /**************************************** OPEN TO CHANGE SECTION */
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    margin-top: -50px;
+}
+
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 60%;
+    height: 100px;
+}
+
+
+
+
 .building-page .openToChangeSection {
     background: var(--clr-blue);
     padding: 50px 30px;
@@ -1274,6 +1302,8 @@ body {
 
 /**************************************** /OPEN TO CHANGE SECTION */
 
+
+ 
 
 
 
@@ -2006,8 +2036,41 @@ body {
 
 
 
+/* OPEN AIR */
+.open-air{
+    position: relative;
+}
+/* OPEN AIR */
 
 
+
+
+/* BUILDING */
+.sus-para-1{
+
+    margin-top: 20px;
+}
+
+
+
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.design-box1-buil{
+
+    width: 200px;
+    height: 80px;
+    background-color: var(--clr-blue);
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+
+
+}
+/* BUILDING */
 
 
 
@@ -2373,6 +2436,136 @@ body {
 
 
 /**************************************** SUSTAINABILITY PAGE */
+
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    margin-top: -20px;
+}
+
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 60%;
+	height:100px;
+}
+
+.owl-stage-outer {
+    margin-top: 30px;
+
+}
+
+
+.lg-color{
+
+   color: var(--clr-green-light) !important;
+}
+
+
+.left-space{
+    position: relative;
+}
+.sus-slid-title{
+
+    color:#003B43;
+}
+
+@media (max-width: 900px) {
+ 
+    .feelGoodDesignSection-bil .owl-carousel .owl-stage{
+
+        margin-left: -76px;
+
+        
+    }
+
+    .owl-stage-outer {
+    margin-top: 100px !important;
+    padding: 0px 50px;
+}
+
+
+
+    .sus-item2{
+
+        padding-left: 0 !important;
+        letter-spacing: 15px !important;
+    }
+   
+
+    .slidercontent {
+    display: flex;
+    width: 100%;
+    height: 900px !important;
+    padding-bottom: 40px;
+
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+   
+   display: none;
+}
+
+    .smart-hed {
+    
+    margin-top: 30px;
+   
+}
+
+
+
+    .owl-carousel, .owl-carousel.owl-loaded {
+    /* display: block;
+    padding: 0px 40px; */
+
+    display: block !important;
+        padding: 0px 10px !important;
+        top: -70px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 70px;
+}
+
+.owl-carousel .item {
+    padding: 0px;
+}
+.icon_desc{
+
+text-transform: uppercase;
+font-size: 14px;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    font-size: 40px !important;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-size: 40px !important;
+}
+
+}
+
+
+
+
+.sus-slidercontent{
+
+    height: 700px !important;
+    
+}
+
 .sustain-page .esgSection {
     background-color: white;
     padding: 50px 0 180px;
@@ -2414,6 +2607,48 @@ body {
     right: 0;
     bottom: 0;
 }
+
+.design-box-sus2{
+    width: 150px;
+        height: 80px;
+        position: absolute;
+        right: 0;
+        bottom: 250px;
+       
+        background-color: var(--clr-green);;
+}
+
+.design-box-sus3 {
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    background-color: var(--clr-green);
+}
+
+
+.design-box-sus2{
+    width: 150px;
+        height: 80px;
+        position: absolute;
+        right: 0;
+        bottom: 250px;
+       
+        background-color: var(--clr-green);;
+}
+
+.design-box-sus3 {
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    background-color: var(--clr-green);
+}
+
+
+
 
 /**************************************** /SUSTAINABILITY PAGE */
 

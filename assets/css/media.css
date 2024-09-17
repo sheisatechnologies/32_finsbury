@@ -1146,8 +1146,11 @@
     .feelGoodDesignSection {
 
         padding: 10px 0;
+       
 
     }
+
+  
 
     .sustain-page .esgSection .designBoxes .designBox1 {
         display: none;
@@ -3010,13 +3013,97 @@ this is our own class
 .ml-1{
     margin-left: 1rem !important;
 }
-
+.ml-2{
+    margin-left: 3rem !important;
+}
 
 
 
 }
 
 
+
+@media (max-width: 900px) {
+
+
+        
+
+       
+
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+
+display: none;
+}
+
+
+
+#mini-map-right {
+width: 100%;
+padding-bottom: 40px;
+
+}
+
+
+.owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+    padding: 20px 0px;
+}
+
+.owl-carousel .owl-item img {
+display: block;
+width: 70px;
+}
+
+.owl-carousel .item {
+padding: 0px;
+}
+.icon_desc{
+
+text-transform: uppercase;
+font-size: 14px;
+}
+
+.owl-nav .owl-next {
+position: absolute;
+top: 4px;
+right: 0;
+font-size: 40px !important;
+display: none;
+}
+
+.owl-nav .owl-prev {
+position: absolute;
+top: 4px;
+left: 0;
+font-size: 40px !important;
+display: none;
+}
+
+.owl-nav button.owl-prev{
+
+display: none;
+}
+
+.design-box-sus {
+    width: 150px;
+    height: 80px;
+    background-color: #CDFAD5;
+    position: absolute;
+   
+    left: 0;
+    bottom: 0px;
+}
+
+.feelGoodDesignSection .topBar {
+  
+    padding: 0px 0px;
+  
+}
+
+
+
+}
 
 
 
