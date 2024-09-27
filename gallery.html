@@ -56,11 +56,13 @@
 .blueimp-gallery>.prev {
 
     border:none !important;
+    background: transparent;
 }
 
 .blueimp-gallery>.next {
 
 border:none !important;
+background: transparent;
 }
 
 .blueimp-gallery>.slides>.slide>.slide-content {
@@ -263,7 +265,7 @@ border:none !important;
 
 
     
-  <div class="buttonsSection">
+  <div class="buttonsSection no-phon">
     <div class="container">
         <!-- First Row -->
         <div class="row">
@@ -334,6 +336,79 @@ border:none !important;
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+
+
+<div class="buttonsSection no-desk">
+    <div class="container">
+        <!-- First Row -->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="links3" class="links">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <a href="assets/images/gallery/01-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/01-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 ">
+                            <a href="assets/images/gallery/02-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/02-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 ">
+                            <a href="assets/images/gallery/03-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/03-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 ">
+                            <a href="assets/images/gallery/04-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/04-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 ">
+                            <a href="assets/images/gallery/05-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/05-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+
+                        <div class="col-6 ">
+                            <a href="assets/images/gallery/06-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/06-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 ">
+                            <a href="assets/images/gallery/07-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/07-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 ">
+                            <a href="assets/images/gallery/08-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/08-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+
+                        <div class="col-6 ">
+                            <a href="assets/images/gallery/09-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/09-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 ">
+                            <a href="assets/images/gallery/10-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/10-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Second Row -->
+      
     </div>
 </div>
 
@@ -518,6 +593,16 @@ border:none !important;
 
 
 document.getElementById('links2').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = { index: link, event: event },
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+
+
+document.getElementById('links3').onclick = function (event) {
     event = event || window.event;
     var target = event.target || event.srcElement,
         link = target.src ? target.parentNode : target,
