@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Equal Columns</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles to ensure no gaps */
+        .custom-col {
+            flex: 0 0 20%; /* Each column takes 20% width for 5 columns */
+            max-width: 20%; /* Ensure max width is also 20% */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row g-0"> <!-- No gaps between columns -->
+            <div class="col-6 col-md-4 col-lg-2 custom-col"> <!-- 2 columns on mobile, 5 on desktop -->
+                <a href="assets/images/gallery/01-large.jpg" data-gallery="">
+                    <img src="assets/images/gallery/01-small.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 custom-col">
+                <a href="assets/images/gallery/02-large.jpg" data-gallery="">
+                    <img src="assets/images/gallery/02-small.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 custom-col">
+                <a href="assets/images/gallery/03-large.jpg" data-gallery="">
+                    <img src="assets/images/gallery/03-small.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 custom-col">
+                <a href="assets/images/gallery/04-large.jpg" data-gallery="">
+                    <img src="assets/images/gallery/04-small.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 custom-col">
+                <a href="assets/images/gallery/05-large.jpg" data-gallery="">
+                    <img src="assets/images/gallery/05-small.jpg" class="img-fluid">
+                </a>
+            </div>
+        </div>
+
+        <div class="row g-0 mt-3"> <!-- Second row -->
+            <div class="col-6 col-md-4 col-lg-2 custom-col">
+                <a href="assets/images/gallery/06-large.jpg" data-gallery="">
+                    <img src="assets/images/gallery/06-small.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 custom-col">
+                <a href="assets/images/gallery/07-large.jpg" data-gallery="">
+                    <img src="assets/images/gallery/07-small.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 custom-col">
+                <a href="assets/images/gallery/08-large.jpg" data-gallery="">
+                    <img src="assets/images/gallery/08-small.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 custom-col">
+                <a href="assets/images/gallery/09-large.jpg" data-gallery="">
+                    <img src="assets/images/gallery/09-small.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 custom-col">
+                <a href="assets/images/gallery/10-large.jpg" data-gallery="">
+                    <img src="assets/images/gallery/10-small.jpg" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
