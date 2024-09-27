@@ -36,6 +36,19 @@
 
     <style>
 
+        .header{
+            z-index: 4 !important;
+        }
+.blueimp-gallery>.prev {
+
+    border:none !important;
+}
+
+.blueimp-gallery>.next {
+
+border:none !important;
+}
+
 .blueimp-gallery>.slides>.slide>.slide-content {
     margin: auto;
     width: auto;
@@ -210,9 +223,9 @@
   <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
     <div class="slides"></div>
     <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
+    <a class="prev"><img src="assets/images/icon/Frame 9.svg"></a>
+    <a class="next"><img src="assets/images/icon/Frame 8.svg"></a>
+    <a class="close"><img src="assets/images/icon/close-white.svg"></a>
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
   </div>
@@ -230,6 +243,9 @@
 
 
 
+  
+
+
 
 
     
@@ -239,46 +255,68 @@
         <div class="row">
             <div class="col-md-12">
                 <div id="links" class="links">
-                    <a href="assets/images/gallery/01-large.jpg" title="Puffin" data-gallery="">
-                        <img src="assets/images/gallery/01-small.jpg">
-                    </a>
-                    <a href="assets/images/gallery/02-large.jpg" title="Osprey 7_20" data-gallery="">
-                        <img src="assets/images/gallery/02-small.jpg">
-                    </a>
-                    <a href="assets/images/gallery/03-large.jpg" title="" data-gallery="">
-                        <img src="assets/images/gallery/03-small.jpg">
-                    </a>
-
-                    <a href="assets/images/gallery/04-large.jpg" title="Am AgrippinaUfer" data-gallery="">
-                        <img src="assets/images/gallery/04-small.jpg">
-                    </a>
-                    <a href="assets/images/gallery/05-large.jpg" title="Apostroph . . . Semicolon . . ." data-gallery="">
-                        <img src="assets/images/gallery/05-small.jpg">
-                    </a>
+                    <div class="row">
+                        <div class="col-6 col-lg-2 mb-3">
+                            <a href="assets/images/gallery/01-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/01-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-2 mb-3">
+                            <a href="assets/images/gallery/02-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/02-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-2 mb-3">
+                            <a href="assets/images/gallery/03-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/03-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-2 mb-3">
+                            <a href="assets/images/gallery/04-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/04-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-2 mb-3">
+                            <a href="assets/images/gallery/05-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/05-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
+    
         <!-- Second Row -->
         <div class="row mt-3">
             <div class="col-md-12">
                 <div id="links2" class="links">
-                    <a href="assets/images/gallery/06-large.jpg" title="Am AgrippinaUfer" data-gallery="">
-                        <img src="assets/images/gallery/06-small.jpg">
-                    </a>
-                    <a href="assets/images/gallery/07-large.jpg" title="Apostroph . . . Semicolon . . ." data-gallery="">
-                        <img src="assets/images/gallery/07-small.jpg">
-                    </a>
-                    <a href="assets/images/gallery/08-large.jpg" title="Apostroph . . . Semicolon . . ." data-gallery="">
-                        <img src="assets/images/gallery/08-small.jpg">
-                    </a>
-
-                    <a href="assets/images/gallery/09-large.jpg" title="Apostroph . . . Semicolon . . ." data-gallery="">
-                        <img src="assets/images/gallery/09-small.jpg">
-                    </a>
-                    <a href="assets/images/gallery/10-large.jpg" title="Apostroph . . . Semicolon . . ." data-gallery="">
-                        <img src="assets/images/gallery/10-small.jpg">
-                    </a>
+                    <div class="row">
+                        <div class="col-6 col-lg-2 mb-3">
+                            <a href="assets/images/gallery/06-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/06-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-2 mb-3">
+                            <a href="assets/images/gallery/07-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/07-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-2 mb-3">
+                            <a href="assets/images/gallery/08-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/08-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-2 mb-3">
+                            <a href="assets/images/gallery/09-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/09-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-2 mb-3">
+                            <a href="assets/images/gallery/10-large.jpg"  data-gallery="">
+                                <img src="assets/images/gallery/10-small.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
