@@ -35,8 +35,26 @@
     <link rel="stylesheet" href="assets/css/blueimp-gallery.min.css" />
 
     <style>
+.gallery-page .innerHeroSliderWrapper .bigHeading {
+    font-size: 100px;
+    color: var(--clr-pink);
+    text-transform: uppercase;
+    font-weight: var(--font-medium);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+}
+
 
 @media (max-width: 991px) {
+
+    .gallery-page .innerHeroSliderWrapper .bigHeading {
+        padding: 0 24px;
+        font-size: 30px;
+    }
+
+
     .col-1 {
             flex: 0 0 50% !important; /* Each column takes 20% width for 5 columns */
             max-width: 50% !important; /* Ensure max width is also 20% */
@@ -75,22 +93,22 @@ background: transparent;
     /* background-color: red; */
 }
 
-.download-page .footer {
+.gallery-page .footer {
     background-color: #521616;
 }
 
 
-.download-page header {
+.gallery-page header {
     background-color: #521616;
 }
 
-.download-page .buttonsSection {
+.gallery-page .buttonsSection {
     background-color: #FDE0E6;
     padding: 200px 25px;
     position: relative;
 }
 
-.download-page .buttonsSection::before {
+.gallery-page .buttonsSection::before {
     content: '';
     display: block;
     width: 700px;
@@ -103,7 +121,7 @@ background: transparent;
 
 
 
-.download-page .buttonsSection::after {
+.gallery-page .buttonsSection::after {
     content: '';
     display: block;
     width: 200px;
@@ -115,11 +133,11 @@ background: transparent;
     opacity: 0;
 }
 
-.download-page .requestInfo {
+.gallery-page .requestInfo {
     background-color: #FDE0E6;
 }
 
-.download-page .innerHeroSliderWrapper {
+.gallery-page .innerHeroSliderWrapper {
     background-color: #521616;
     padding-top: 90px;
     margin-top: -90px;
@@ -164,7 +182,7 @@ background: transparent;
 }
     </style>
 </head>
-<body class="download-page">
+<body class="gallery-page">
     <div class="main-wrapper">
      <!------------------------------------------ HEADER -->
      <header class="header">
@@ -177,6 +195,7 @@ background: transparent;
                         <a href="location.html">Location</a>
                         <a href="building.html">Building</a>
                         <a href="sustainability.html">Sustainability  & WELLNESS</a>
+                        <a href="gallery.html">Gallery</a>
                         <a href="contact.html">Contact</a>
                         <a href="download.html">Downloads</a>
                     </div>
@@ -195,7 +214,7 @@ background: transparent;
                     <li><a href="location.html">Location</a></li>
                     <li><a href="building.html">Building</a></li>
                     <li><a href="sustainability.html">Sustainability & WELLNESS</a></li>
-                    
+                    <a href="gallery.html">Gallery</a>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="download.html">Downloads</a></li>
                 </ul>
